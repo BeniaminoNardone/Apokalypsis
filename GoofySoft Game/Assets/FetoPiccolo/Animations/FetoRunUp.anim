@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FetoRunUpDx
+  m_Name: FetoRunUp
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,13 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 1504368565, guid: 012d1d0cd8d1d4ae69300ff01469e910, type: 3}
+      value: {fileID: 1142766037, guid: 1fda65fbce257433a9c1c8438377f569, type: 3}
     - time: 0.083333336
-      value: {fileID: 12535165, guid: 012d1d0cd8d1d4ae69300ff01469e910, type: 3}
+      value: {fileID: -615825138, guid: 1fda65fbce257433a9c1c8438377f569, type: 3}
     - time: 0.16666667
-      value: {fileID: 511877712, guid: 012d1d0cd8d1d4ae69300ff01469e910, type: 3}
+      value: {fileID: -1272669205, guid: 1fda65fbce257433a9c1c8438377f569, type: 3}
     - time: 0.25
-      value: {fileID: -775129165, guid: 012d1d0cd8d1d4ae69300ff01469e910, type: 3}
+      value: {fileID: 234835501, guid: 1fda65fbce257433a9c1c8438377f569, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,10 +50,10 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 1504368565, guid: 012d1d0cd8d1d4ae69300ff01469e910, type: 3}
-    - {fileID: 12535165, guid: 012d1d0cd8d1d4ae69300ff01469e910, type: 3}
-    - {fileID: 511877712, guid: 012d1d0cd8d1d4ae69300ff01469e910, type: 3}
-    - {fileID: -775129165, guid: 012d1d0cd8d1d4ae69300ff01469e910, type: 3}
+    - {fileID: 1142766037, guid: 1fda65fbce257433a9c1c8438377f569, type: 3}
+    - {fileID: -615825138, guid: 1fda65fbce257433a9c1c8438377f569, type: 3}
+    - {fileID: -1272669205, guid: 1fda65fbce257433a9c1c8438377f569, type: 3}
+    - {fileID: 234835501, guid: 1fda65fbce257433a9c1c8438377f569, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -78,4 +78,25 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

@@ -387,6 +387,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1413
+        width: 300
+        height: 487
+      alignment: 9
+      pivot: {x: 0.519786, y: 0.2266567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f99f3f135e23480c9d39bbef2c60938
+      internalID: 1142766037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1417
+        width: 299
+        height: 483
+      alignment: 9
+      pivot: {x: 0.47287387, y: 0.20893282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834de1ad5728f41f3aab24f6ce1915b9
+      internalID: -615825138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 1413
+        width: 295
+        height: 497
+      alignment: 9
+      pivot: {x: 0.49083522, y: 0.2171319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c839a134b2f340dab64fe98248f2bb6
+      internalID: -1272669205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 1406
+        width: 302
+        height: 504
+      alignment: 9
+      pivot: {x: 0.47314373, y: 0.22106062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f323c31393f742f08fa78bf2ab064c4
+      internalID: 234835501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -402,6 +486,10 @@ TextureImporter:
       feto chsheet 1_1: -1587121516
       feto chsheet 1_10: 517959442
       feto chsheet 1_11: 16238268
+      feto chsheet 1_12: 1142766037
+      feto chsheet 1_13: 823890571
+      feto chsheet 1_14: 591278496
+      feto chsheet 1_15: -615825138
       feto chsheet 1_2: 534870269
       feto chsheet 1_3: 1861928874
       feto chsheet 1_4: 971726715
