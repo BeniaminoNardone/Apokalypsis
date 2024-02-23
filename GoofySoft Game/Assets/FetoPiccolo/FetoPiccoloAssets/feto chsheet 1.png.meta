@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: 1fda65fbce257433a9c1c8438377f569
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: feto chsheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2024
+        width: 318
+        height: 469
+      alignment: 9
+      pivot: {x: 0.6029938, y: 0.16157529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c8db6d66d6049c4a946062a40ac082
+      internalID: -472528257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 2041
+        width: 294
+        height: 467
+      alignment: 9
+      pivot: {x: 0.6357468, y: 0.1581613}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89123fda5c66f434cbce1c46539160b5
+      internalID: -1587121516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 2029
+        width: 305
+        height: 470
+      alignment: 9
+      pivot: {x: 0.61409533, y: 0.17220226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f765d77973f4bd4b5e3047305c8ff7
+      internalID: 534870269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 2028
+        width: 292
+        height: 459
+      alignment: 9
+      pivot: {x: 0.65108293, y: 0.14897525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41506a934b4b94227859d0ae122cc372
+      internalID: 1861928874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1417
+        width: 291
+        height: 468
+      alignment: 9
+      pivot: {x: 0.49999988, y: 0.17773698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635a743c7f59e4086b5d41f9c55c5ed0
+      internalID: 971726715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1415
+        width: 283
+        height: 462
+      alignment: 9
+      pivot: {x: 0.4909672, y: 0.19015093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd91492853d9d44c7aef590957c3be82
+      internalID: -2011544960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1420
+        width: 291
+        height: 470
+      alignment: 9
+      pivot: {x: 0.50878423, y: 0.17910832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c401fd7ebe0145f484dbcf5f6a8abe5
+      internalID: 666811925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1415
+        width: 286
+        height: 460
+      alignment: 9
+      pivot: {x: 0.5268136, y: 0.18324664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1baa10efb792048bfb7c13aa3107fa92
+      internalID: 1534199470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1936
+        width: 321
+        height: 491
+      alignment: 9
+      pivot: {x: 0.56391066, y: 0.2055237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b2a0bbd13694cc48af98bb6bbec70d
+      internalID: 1206351490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1936
+        width: 294
+        height: 484
+      alignment: 9
+      pivot: {x: 0.6855004, y: 0.23891862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e46e252bc52421aa150f9fa3f43dfa
+      internalID: 1146738678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 1943
+        width: 300
+        height: 477
+      alignment: 9
+      pivot: {x: 0.68179035, y: 0.2284583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8672baeaa90ae46a3871ea627822c346
+      internalID: 517959442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto chsheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 1950
+        width: 276
+        height: 463
+      alignment: 9
+      pivot: {x: 0.64819866, y: 0.22024754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b963ade91a5604301938c5d273195a6b
+      internalID: 16238268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1e168501b8182436f98fb0d87517c325
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      feto chsheet 1_0: -472528257
+      feto chsheet 1_1: -1587121516
+      feto chsheet 1_10: 517959442
+      feto chsheet 1_11: 16238268
+      feto chsheet 1_2: 534870269
+      feto chsheet 1_3: 1861928874
+      feto chsheet 1_4: 971726715
+      feto chsheet 1_5: -2011544960
+      feto chsheet 1_6: 666811925
+      feto chsheet 1_7: 1534199470
+      feto chsheet 1_8: 1206351490
+      feto chsheet 1_9: 1146738678
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,505 @@
+fileFormatVersion: 2
+guid: d6ccadd7cf6c445c88df55aba01a8839
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4336
+        width: 686
+        height: 1154
+      alignment: 9
+      pivot: {x: 0.5060149, y: 0.40703362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18449d8a4ec4b4694880b3d9782b760e
+      internalID: 2123633562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_1
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 4338
+        width: 672
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.52685344, y: 0.40825018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32985b7ba3ec4f3b92e22e7ca637cdd
+      internalID: 921833036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_2
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 4338
+        width: 984
+        height: 1107
+      alignment: 9
+      pivot: {x: 0.66773504, y: 0.41677782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48fa58dde8284ed492589da61dcdfd4
+      internalID: -253161546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_3
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 4338
+        width: 1116
+        height: 1123
+      alignment: 9
+      pivot: {x: 0.7086711, y: 0.41290462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89723673c513b420b80f773a13b1cad6
+      internalID: 746825506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_4
+      rect:
+        serializedVersion: 2
+        x: 3499
+        y: 4339
+        width: 1094
+        height: 1123
+      alignment: 9
+      pivot: {x: 0.7038815, y: 0.4106228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd0afc1e579e44bfab2101873025927
+      internalID: -591155008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2998
+        width: 930
+        height: 1112
+      alignment: 9
+      pivot: {x: 0.6354767, y: 0.41675726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec7db910d27d45d184f382d0ab85a76
+      internalID: -2128598959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_6
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 2999
+        width: 687
+        height: 1157
+      alignment: 9
+      pivot: {x: 0.5205991, y: 0.40214983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1924d3628800f450ea0c6039ef5ae17c
+      internalID: 380030989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_7
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 3002
+        width: 684
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.5141462, y: 0.39920786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a8587e32de1494898fa0f8e125a9b2
+      internalID: 1150522798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1329
+        width: 1094
+        height: 1136
+      alignment: 9
+      pivot: {x: 0.2955267, y: 0.41083172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a48f4f2012d47598b1506312b8740c
+      internalID: -2018426237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_9
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1335
+        width: 1115
+        height: 1130
+      alignment: 9
+      pivot: {x: 0.28493357, y: 0.41180807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cb0f880460d43eba0fb323bb49157f
+      internalID: 1397409393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_10
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 1338
+        width: 994
+        height: 1105
+      alignment: 9
+      pivot: {x: 0.32768118, y: 0.4182678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24ac7ca9807342be85f22d1846371fd
+      internalID: -687553285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_11
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 1338
+        width: 676
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.48157245, y: 0.40267882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0829b476585466a8f04b71f4e3de7a
+      internalID: 1235434337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_12
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 1322
+        width: 674
+        height: 1170
+      alignment: 9
+      pivot: {x: 0.48788932, y: 0.40930885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1c0b7d0567647478a924473b967a03
+      internalID: -1047967480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_13
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 0
+        width: 937
+        height: 1131
+      alignment: 9
+      pivot: {x: 0.3663084, y: 0.40937865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5f2b81f671b41748e0856a15d028d4
+      internalID: -357726639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_14
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 0
+        width: 700
+        height: 1154
+      alignment: 9
+      pivot: {x: 0.49186558, y: 0.40625063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523de50f8916745b4b0aa65fd7c312ad
+      internalID: -2018381920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn attack dagger 3_15
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 0
+        width: 683
+        height: 1160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39691818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7103f829f2efc4ac78c4b2302b5b22c3
+      internalID: 1627660709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 01caf5b90f5894906b3ebeb9ae07482c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bjorn attack dagger 3_0: 2123633562
+      bjorn attack dagger 3_1: 921833036
+      bjorn attack dagger 3_10: -687553285
+      bjorn attack dagger 3_11: 1235434337
+      bjorn attack dagger 3_12: -1047967480
+      bjorn attack dagger 3_13: -357726639
+      bjorn attack dagger 3_14: -2018381920
+      bjorn attack dagger 3_15: 1627660709
+      bjorn attack dagger 3_2: -253161546
+      bjorn attack dagger 3_3: 746825506
+      bjorn attack dagger 3_4: -591155008
+      bjorn attack dagger 3_5: -2128598959
+      bjorn attack dagger 3_6: 380030989
+      bjorn attack dagger 3_7: 1150522798
+      bjorn attack dagger 3_8: -2018426237
+      bjorn attack dagger 3_9: 1397409393
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
