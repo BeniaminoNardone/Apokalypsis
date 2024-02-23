@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -134,18 +134,172 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: feto muore pugnale 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2430
+        width: 384
+        height: 442
+      alignment: 9
+      pivot: {x: 0.71805054, y: 0.15536016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3419964a409bc443391bd0999d83a85f
+      internalID: 826373469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto muore pugnale 1_1
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2453
+        width: 460
+        height: 547
+      alignment: 9
+      pivot: {x: 0.89147973, y: 0.14409162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76110dc9ea02a422fb9aa9d304f11a65
+      internalID: -1645775082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto muore pugnale 1_2
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 2493
+        width: 516
+        height: 487
+      alignment: 9
+      pivot: {x: 0.9243074, y: 0.19125636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc23c9d6f709d4f5b8794d0a83557e92
+      internalID: 1435550121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto muore pugnale 1_3
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 2548
+        width: 596
+        height: 452
+      alignment: 9
+      pivot: {x: 0.9492339, y: 0.20820063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf7a343369594a188755ccf7765f854
+      internalID: 1506963055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto muore pugnale 1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2056
+        width: 530
+        height: 283
+      alignment: 9
+      pivot: {x: 0.8260003, y: 0.35086286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3941a1d0e8f41a3933576d0d3a3878
+      internalID: 1083062371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto muore pugnale 1_5
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 2061
+        width: 477
+        height: 310
+      alignment: 9
+      pivot: {x: 0.80415624, y: 0.3298151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afb3f9b44ab5452da650b3011f83eff
+      internalID: 1927616734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feto muore pugnale 1_6
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 2061
+        width: 502
+        height: 291
+      alignment: 9
+      pivot: {x: 0.8074005, y: 0.35496286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a65029d4aa4e42feba6c68bdf97d934
+      internalID: 875184255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a2aff7f38730840a095423a17df90088
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      feto muore pugnale 1_0: 826373469
+      feto muore pugnale 1_1: -1645775082
+      feto muore pugnale 1_2: 1435550121
+      feto muore pugnale 1_3: 1506963055
+      feto muore pugnale 1_4: 1083062371
+      feto muore pugnale 1_5: 1927616734
+      feto muore pugnale 1_6: 875184255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

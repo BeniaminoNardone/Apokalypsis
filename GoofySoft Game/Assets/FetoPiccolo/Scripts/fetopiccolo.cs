@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class fetopiccolo : MonoBehaviour
 {
+    public Animator _animator;
+    public movementAI movimento;
+    public BoxCollider _collider;
     public int maxHealth = 1;
     int currentHealth;
     int damage = 1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +30,12 @@ public class fetopiccolo : MonoBehaviour
 
     void Die()
     {
+
+        _animator.SetTrigger("isDied");
+ 
+        this.enabled = false;
+        movimento.enabled = false;
+        _collider.enabled = false;
         Debug.Log("enemy died");
     }
 
