@@ -30,7 +30,7 @@ public class Spawner1 : MonoBehaviour
 
     private void InstantiateFetopiccolo()
     {
-        GameObject newEnemy = Instantiate(Fetopiccolo, new Vector3(Random.Range(-5f, 5f), Random.Range(-6f, 6f), 0), Quaternion.identity);
+        GameObject newEnemy = Instantiate(Fetopiccolo, new Vector3(Random.Range(-5f, 5f), 2, 0), Quaternion.Euler(33f, 0f, 0f));
         enemiesSpawned++;
     }
 }
