@@ -8,7 +8,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private FixedJoystick _joystick;
     [SerializeField] private Animator _animator;
     [SerializeField] private float   _moveSpeed;
-
+    // Determina i vettori globali per destra e in avanti
+    Vector3 globalRight = Vector3.right;
+    Vector3 globalForward = Vector3.forward;
     Vector2 movement;
      
     public Transform attackPoint;
@@ -68,8 +70,10 @@ public class PlayerController : MonoBehaviour
 
         if (horizontalInput != 0 && verticalInput != 0)
         {
-            // Calcola la posizione dell'attackPoint
-            Vector3 attackPointPosition = transform.position + transform.right * horizontalInput + transform.forward * verticalInput;
+            
+
+            // Calcola la nuova posizione dell'attack point
+            Vector3 attackPointPosition = transform.position + globalRight * horizontalInput * 10 + globalForward * verticalInput * 10;
 
             attackPoint.position = attackPointPosition;
  
