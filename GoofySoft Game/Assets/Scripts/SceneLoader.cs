@@ -11,16 +11,22 @@ public class SceneLoader : MonoBehaviour
     {
 
         if (Input.GetMouseButtonDown(0))
-          StartCoroutine(LoadNextScene());
+          LoadNextScene();
 
     }
 
-    IEnumerator LoadNextScene()
+    public void LoadNextScene()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex + 1);
+
+
+    }
+
+    IEnumerator LoadSceneWithCrossFade(int sceneIndex)
     {
         crossFade.SetTrigger("Start");
         yield return new WaitForSeconds(1f);
-        Scene scene = SceneManager.GetActiveScene();
-        int nextLevelBuildIndex = 1 - scene.buildIndex;
-        SceneManager.LoadScene(nextLevelBuildIndex);
+        SceneManager.LoadScene(sceneIndex);
     }
 }

@@ -4,9 +4,6 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< Updated upstream
-  m_Scenes: []
-=======
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Scene 1.unity
@@ -15,14 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene 2.unity
     guid: bbbc5db8ad54046049ff2f4cc88e80a7
   - enabled: 1
-    path: Assets/Scenes/Main menu.unity
-    guid: 8718cb205504146d19de2032e93e5676
+    path: Assets/Scenes/Scene 3.unity
+    guid: b569c0e6c1b0d43e1bdce838c349441e
   - enabled: 1
-    path: Assets/Scenes/ScenaDiGioco.unity
-    guid: 873623613419d40799fe5d13b79b2128
->>>>>>> Stashed changes
-  m_configObjects:
-    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 0f5f887ffb74f45dca36289462fc91d2,
-      type: 2}
-    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
-      guid: 7854e2be1fd044a6792f28e6131dd168, type: 2}
+    path: Assets/Scenes/Scene 4.unity
+    guid: 765985e7e3e8e4675bf0403ff255d66f
+  m_configObjects: {}
