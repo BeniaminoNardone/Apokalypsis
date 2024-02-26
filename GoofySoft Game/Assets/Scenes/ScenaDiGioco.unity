@@ -5211,6 +5211,11 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1047116972}
+    - target: {fileID: 1089595183969729228, guid: 817f6b84a845a4266956bbf78dcb36a4,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 3.14
+      objectReference: {fileID: 0}
     - target: {fileID: 1799993682564101630, guid: 817f6b84a845a4266956bbf78dcb36a4,
         type: 3}
       propertyPath: player
@@ -5832,6 +5837,7 @@ GameObject:
   - component: {fileID: 1047116972}
   - component: {fileID: 1047116971}
   - component: {fileID: 1047116970}
+  - component: {fileID: 1047116973}
   m_Layer: 5
   m_Name: Player
   m_TagString: Untagged
@@ -6066,6 +6072,21 @@ MonoBehaviour:
   maxHealth: 3
   playerController: {fileID: 1047116963}
   playerSr: {fileID: 1047116966}
+--- !u!114 &1047116973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047116962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6286648a714942acab6031952c2bbc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 1292662176}
+  bulletPrefab: {fileID: 3365998352754372313, guid: 08df1f6e323ff44878a88adb76afc88d,
+    type: 3}
 --- !u!1 &1076090057
 GameObject:
   m_ObjectHideFlags: 0
@@ -6285,7 +6306,7 @@ GameObject:
   - component: {fileID: 1131150654}
   - component: {fileID: 1131150653}
   m_Layer: 5
-  m_Name: Mlee Attack Button (1)
+  m_Name: DartAttackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6354,9 +6375,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1047116969}
-        m_TargetAssemblyTypeName: PlayerCombat, Assembly-CSharp
-        m_MethodName: Attack
+      - m_Target: {fileID: 1047116973}
+        m_TargetAssemblyTypeName: PlayerShoot, Assembly-CSharp
+        m_MethodName: Shoot
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6557,13 +6578,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292662175}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.28401542, y: 0, z: 0, w: 0.95881975}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -2.81, z: -3.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1047116967}
-  m_LocalEulerAnglesHint: {x: -33, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1292662177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6799,7 +6820,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822631077}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 696d2496739324efaafc9f8f7b26a867, type: 3}
   m_Name: 
