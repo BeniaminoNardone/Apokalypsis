@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1931072779714360057}
   - component: {fileID: 2560889776182703776}
   - component: {fileID: 1449376929116314595}
+  - component: {fileID: -1733395290640416216}
+  - component: {fileID: -6612832438040786339}
   m_Layer: 0
   m_Name: 'HolyDart '
   m_TagString: Untagged
@@ -100,9 +102,50 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.74, y: 1.9699999, z: 0.2}
   m_Center: {x: 1.87, y: 0.071356796, z: 7.58192e-10}
+--- !u!54 &-1733395290640416216
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3365998352754372313}
+  serializedVersion: 4
+  m_Mass: 0.0000001
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!114 &-6612832438040786339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3365998352754372313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f6e64be4aa99410cb61f6a2c75648c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 24.1
+  dartRigidbody: {fileID: -1733395290640416216}
