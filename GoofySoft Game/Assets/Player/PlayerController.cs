@@ -52,8 +52,11 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Mathf.Clamp(horizontalInput, -1f, 1f);
         verticalInput = Mathf.Clamp(verticalInput, -1f, 1f);
 
-       
-            _rigidbody.velocity = new Vector3(horizontalInput * _moveSpeed, _rigidbody.velocity.y, verticalInput * _moveSpeed);
+        // Porta i valori normalizzati a 1, -1 o lascia 0 se già 0
+        int horizontalI = (horizontalInput > 0) ? 1 : (horizontalInput < 0) ? -1 : 0;
+       int  verticalI = (verticalInput > 0) ? 1 : (verticalInput < 0) ? -1 : 0;
+
+        _rigidbody.velocity = new Vector3(horizontalI * _moveSpeed, _rigidbody.velocity.y, verticalI * _moveSpeed);
 
             // Aggiorna l'animator con i valori normalizzati
             _animator.SetFloat("Horizontal", horizontalInput);
