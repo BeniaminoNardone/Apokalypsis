@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: 9722e819aa17640cb8b2b05cbd2ec0b0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dartattack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5264
+        width: 993
+        height: 1128
+      alignment: 9
+      pivot: {x: 0.6754936, y: 0.41215265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cb0c602b1294516865d6e4b14cf53b
+      internalID: -1766271298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack_1
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 5257
+        width: 1107
+        height: 1135
+      alignment: 9
+      pivot: {x: 0.6944614, y: 0.41570503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94bd3e35d0b04c1fbbde05d8cf33da6
+      internalID: -1051468335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack_2
+      rect:
+        serializedVersion: 2
+        x: 3121
+        y: 5254
+        width: 1044
+        height: 1138
+      alignment: 9
+      pivot: {x: 0.67346656, y: 0.41892987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33abc42558e96455894423d5047d4edf
+      internalID: 699425546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3617
+        width: 1047
+        height: 1155
+      alignment: 9
+      pivot: {x: 0.65338796, y: 0.4050844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e976a4b6ac0243f9a7a635a99ba8ba1
+      internalID: -1338328055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack_4
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 3624
+        width: 1097
+        height: 1141
+      alignment: 9
+      pivot: {x: 0.70246357, y: 0.4071641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f356b2c0dc04b44d7a94faa3a1500232
+      internalID: 858548823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack_5
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 3617
+        width: 1033
+        height: 1162
+      alignment: 9
+      pivot: {x: 0.6786216, y: 0.41178244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4429fad37a38f42c895f992fab1c4ce4
+      internalID: 1978566873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1862
+        width: 536
+        height: 1177
+      alignment: 9
+      pivot: {x: 0.51551867, y: 0.3798575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c19d60bb1514768bc04f3973b7ad29
+      internalID: -1200800282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack_7
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1882
+        width: 545
+        height: 1165
+      alignment: 9
+      pivot: {x: 0.4923685, y: 0.3679101}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9378b3a3b9544eb9128b38a1f7e7f9
+      internalID: 2064481773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack_8
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 1858
+        width: 576
+        height: 1192
+      alignment: 9
+      pivot: {x: 0.5068982, y: 0.38332167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f845ed0de9a84b118f736eabb7d931b
+      internalID: -432907637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 565
+        height: 1210
+      alignment: 9
+      pivot: {x: 0.52109945, y: 0.41789812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd8e8ca0d8844237a834d59e75b882b
+      internalID: -874815939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack_10
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 0
+        width: 516
+        height: 1222
+      alignment: 9
+      pivot: {x: 0.51540166, y: 0.4089492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c427a6f835ef44adaddaa4e3d893837
+      internalID: 761370677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack_11
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 0
+        width: 604
+        height: 1214
+      alignment: 9
+      pivot: {x: 0.47368333, y: 0.41816902}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c677cbaf2af2c4749b61c329db2fdf2d
+      internalID: 125785294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ffd7e99ecc49d497c9f99001d247ea95
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dartattack_0: -1766271298
+      dartattack_1: -1051468335
+      dartattack_10: 761370677
+      dartattack_11: 125785294
+      dartattack_2: 699425546
+      dartattack_3: -1338328055
+      dartattack_4: 858548823
+      dartattack_5: 1978566873
+      dartattack_6: -1200800282
+      dartattack_7: 2064481773
+      dartattack_8: -432907637
+      dartattack_9: -874815939
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
