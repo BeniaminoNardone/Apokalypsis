@@ -5,7 +5,7 @@ using UnityEngine;
 public class movementAI : MonoBehaviour
 {
     public GameObject player;
-    public float speed;
+    public int speed;
      public Animator _animator;
     public int risultato;
 
@@ -13,7 +13,7 @@ public class movementAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        speed = Random.Range(5, 18);
     }
 
     // Update is called once per frame
