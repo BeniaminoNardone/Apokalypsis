@@ -140,11 +140,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 515
-        width: 374
-        height: 197
+        y: 543
+        width: 348
+        height: 130
       alignment: 9
-      pivot: {x: 0, y: 0.46377826}
+      pivot: {x: 0.49, y: 0.49394333}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
