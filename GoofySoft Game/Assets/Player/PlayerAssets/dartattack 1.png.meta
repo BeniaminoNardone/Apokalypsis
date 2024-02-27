@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -134,18 +134,150 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dartattack 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5254
+        width: 1058
+        height: 1138
+      alignment: 9
+      pivot: {x: 0.3219382, y: 0.42300388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746ca0086dacd491aa39eda44a58c5d3
+      internalID: 187542083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack 1_1
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 5245
+        width: 1122
+        height: 1147
+      alignment: 9
+      pivot: {x: 0.35942873, y: 0.43677545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db1e5cbe9e124be286efb093edfbd1c
+      internalID: -150098470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack 1_2
+      rect:
+        serializedVersion: 2
+        x: 3147
+        y: 5201
+        width: 1018
+        height: 1191
+      alignment: 9
+      pivot: {x: 0.34506807, y: 0.43746555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de547e715dccf4e9880e1808a18a4310
+      internalID: -659013170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack 1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3596
+        width: 1001
+        height: 1214
+      alignment: 9
+      pivot: {x: 0.32492906, y: 0.40977937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d8416c91fac4a72bfe8e296d53ec46
+      internalID: 1815603609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack 1_4
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 3570
+        width: 1131
+        height: 1270
+      alignment: 9
+      pivot: {x: 0.3101893, y: 0.41375762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4d4dd8aa61240d0afbfabb144ecb17
+      internalID: -1223055979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dartattack 1_5
+      rect:
+        serializedVersion: 2
+        x: 3121
+        y: 3592
+        width: 1044
+        height: 1218
+      alignment: 9
+      pivot: {x: 0.34473008, y: 0.41007566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c581afaf7f26243cabd99ab948dbe266
+      internalID: 1023538789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e707222bf926d45f198b5b5cdadf47d0
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dartattack 1_0: 187542083
+      dartattack 1_1: -150098470
+      dartattack 1_2: -659013170
+      dartattack 1_3: 1815603609
+      dartattack 1_4: -1223055979
+      dartattack 1_5: 1023538789
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
