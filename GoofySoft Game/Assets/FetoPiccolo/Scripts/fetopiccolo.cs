@@ -10,7 +10,7 @@ public class fetopiccolo : MonoBehaviour
     public int maxHealth = 1;
     int currentHealth;
     int damage = 1;
-    public static ParticleSystem bloodParticles;
+    public ParticleSystem bloodParticles;
 
     // Start is called before the first frame update
     void Start()
