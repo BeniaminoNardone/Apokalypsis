@@ -28,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3365998352754372313}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2840153, y: 0, z: 0, w: 0.95881975}
+  m_LocalRotation: {x: 0.29871926, y: 0.35917085, z: -0.6797897, w: 0.56537515}
   m_LocalPosition: {x: 0, y: 9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 33, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 124.3, y: 180, z: 79.5}
 --- !u!212 &2560889776182703776
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 966073382, guid: 255aa0bf6bb0a492badca7f8ae776e2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 3.74, y: 1.97}
@@ -106,8 +106,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.74, y: 1.9699999, z: 0.2}
-  m_Center: {x: 1.87, y: 0.071356796, z: 7.58192e-10}
+  m_Size: {x: 3.33, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &-1733395290640416216
 Rigidbody:
   m_ObjectHideFlags: 0

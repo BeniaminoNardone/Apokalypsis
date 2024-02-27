@@ -6,7 +6,7 @@ public class movementAI : MonoBehaviour
 {
     public GameObject player;
     public int speed;
-     public Animator _animator;
+    public Animator _animator;
     public int risultato;
 
     private float distance;
@@ -27,7 +27,7 @@ public class movementAI : MonoBehaviour
         _animator.SetFloat("angle", angle);
 
         transform.position = Vector3.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
- 
+
 
         // Calcola la distanza lungo l'asse Z tra le due entità
         float distanzaZ = transform.position.z - player.transform.position.z;
@@ -50,5 +50,5 @@ public class movementAI : MonoBehaviour
 
     }
 
-  
+
 }
