@@ -10,6 +10,7 @@ public class fetopiccolo : MonoBehaviour
     public int maxHealth = 1;
     int currentHealth;
     int damage = 1;
+    public static ParticleSystem bloodParticles;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +38,8 @@ public class fetopiccolo : MonoBehaviour
         movimento.enabled = false;
         _collider.enabled = false;
         Debug.Log("enemy died");
+
+        Instantiate(bloodParticles, transform.position, Quaternion.identity);
     }
 
     // Update is called once per frame
