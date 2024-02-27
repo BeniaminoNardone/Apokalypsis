@@ -2258,6 +2258,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3043295521330942998, guid: 1f73959d382c8441aa616075a0ce0a10,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5413625861753674802, guid: 1f73959d382c8441aa616075a0ce0a10,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13860,7 +13865,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 429293593, guid: 34e5c1859e318484e8e91c5a71481552, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 4.57, y: 5.2815213}
@@ -19958,7 +19963,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 328960103, guid: 34e5c1859e318484e8e91c5a71481552, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 12.07, y: 6.791956}
