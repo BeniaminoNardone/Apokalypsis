@@ -10713,6 +10713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6286648a714942acab6031952c2bbc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _joystick: {fileID: 1680904229}
   firePoint: {fileID: 1292662176}
   bulletPrefab: {fileID: 3365998352754372313, guid: 08df1f6e323ff44878a88adb76afc88d,
     type: 3}
