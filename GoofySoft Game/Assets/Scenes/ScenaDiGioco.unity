@@ -6018,6 +6018,7 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 8
+  bloodParticles: {fileID: 0}
 --- !u!114 &1047116970
 MonoBehaviour:
   m_ObjectHideFlags: 0
