@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
 
 
             // Calcola la nuova posizione dell'attack point rispetto alla rotazione del giocatore
-            Vector3 attackPointLocalPosition = new Vector3(horizontalI * 10, 0f, verticalI * 10);
+            Vector3 attackPointLocalPosition = new Vector3(horizontalInput * 5, 0f, verticalInput * 5);
             Vector3 attackPointWorldPosition = transform.TransformPoint(attackPointLocalPosition);
 
             // Aggiorna la posizione dell'attack point
