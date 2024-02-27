@@ -20,9 +20,18 @@ public class dart : MonoBehaviour
 
     private void OnTriggerEnter(Collider hitInfo)
     {
-        fetopiccolo enemy = hitInfo.GetComponent<fetopiccolo>();
-        enemy.TakeDamage();
-        Debug.Log(hitInfo.name);
-        Destroy(gameObject);
+        if (hitInfo != null)
+        {
+            fetopiccolo enemy = hitInfo.GetComponent<fetopiccolo>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage();
+            }
+            else
+            {
+                Debug.LogWarning("Il collider non ha il componente 'fetopiccolo'.");
+            }
+            Debug.Log(hitInfo.name);
+        }
     }
 }
