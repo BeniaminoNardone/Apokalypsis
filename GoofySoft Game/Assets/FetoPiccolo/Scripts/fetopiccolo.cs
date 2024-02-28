@@ -38,6 +38,8 @@ public class fetopiccolo : MonoBehaviour
         _collider.enabled = false;
         Debug.Log("enemy died");
 
+        ScoreManager.scoreCount += 10;
+
         // Attiva la coroutine per distruggere il GameObject dopo l'animazione di morte
         StartCoroutine(DestroyAfterAnimation());
     }
