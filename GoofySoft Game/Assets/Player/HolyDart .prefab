@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f6e64be4aa99410cb61f6a2c75648c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 24.1
+  speed: 69
   dartRigidbody: {fileID: -1733395290640416216}
 --- !u!1 &7746214149528034840
 GameObject:
