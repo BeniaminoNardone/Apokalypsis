@@ -7,6 +7,7 @@ public class HeartSystem : MonoBehaviour
 
     public GameObject[] hearts;
     public int life;
+   
 
  
     void Update()

@@ -19,10 +19,19 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int amount)
     {
         health -= amount;
-        if(health<= 0) {
+        if (health <= 0) {
             playerSr.enabled = false;
             playerController.enabled = false;
         }
         
     }
+    // Update is called once per frame
+    public void Healing(int amount)
+    {
+        health += 1;
+        
+        
+
+    }
+    
 }
