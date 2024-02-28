@@ -10,7 +10,15 @@ public class PlayerShoot : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
     public Animator _animator;
+    public Vector3 offsety;
+    public float delay = 0.05f; // Tempo di attesa in secondi
 
+    private void Start()
+    {
+
+         offsety = new Vector3(0f, 3f, 0f);
+
+    }
     // Update is called once per frame
     void Update()
     {
@@ -30,10 +38,19 @@ public class PlayerShoot : MonoBehaviour
     public void Shoot()
     {
         _animator.SetTrigger("IsDartAttack");
+        StartCoroutine(InstantiateBulletWithDelay());
+    }
+
+    private IEnumerator InstantiateBulletWithDelay()
+    {
+        yield return new WaitForSeconds(delay);
 
         // Calcola l'angolo Z corretto per mantenere il proiettile parallelo al terreno
         float angle = Mathf.Atan2(firePoint.right.y, firePoint.right.x) * Mathf.Rad2Deg;
 
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.Euler( 0, angle, 0));
+        // Istanzia il proiettile con l'offset
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position + offsety, Quaternion.Euler(0, angle, 0));
     }
+
+
 }
