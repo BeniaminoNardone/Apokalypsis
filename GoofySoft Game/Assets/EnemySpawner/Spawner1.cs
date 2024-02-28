@@ -6,6 +6,8 @@ public class Spawner1 : MonoBehaviour
 {
     [SerializeField]
     private GameObject Fetopiccolo;
+    [SerializeField]
+    public GameObject player;
 
     [SerializeField]
     private float fetopiccoloInterval = 3.5f;
@@ -30,7 +32,13 @@ public class Spawner1 : MonoBehaviour
 
     private void InstantiateFetopiccolo()
     {
-        GameObject newEnemy = Instantiate(Fetopiccolo, new Vector3(Random.Range(-5f, 5f), 2, 0), Quaternion.Euler(33f, 0f, 0f));
+        Vector3 playerPosition = player.transform.position;
+        float scostamento = Random.Range(-1f, 1f);
+        if (scostamento == 0)
+        {
+            scostamento += 1;
+        }
+        GameObject newEnemy = Instantiate(Fetopiccolo, new Vector3(playerPosition.x + 40 * scostamento, 2, playerPosition.z + 30 * scostamento), Quaternion.Euler(33f, 0f, 0f));
         enemiesSpawned++;
     }
 }
