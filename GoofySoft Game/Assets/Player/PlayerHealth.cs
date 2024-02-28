@@ -6,13 +6,39 @@ public class PlayerHealth : MonoBehaviour
 {
     public int health;
     public int maxHealth = 3;
+
+   
     [SerializeField] private ParticleSystem particelleMortePlayer = default;
     public PlayerController playerController;
     public SpriteRenderer playerSr;
+
+
+    public int HealingPieces = 0;//conta quanto è piena la fiala
     // Start is called before the first frame update
     void Start()
     {
         health = maxHealth;
+    }
+
+
+    public void HealPlayer()
+    {
+        if (HealingPieces >= 3)//se ho una fiala completa
+        {
+            health++;
+            HealingPieces = 0;
+        }
+
+    }
+
+    public void IncrementHealtPiece()
+    {
+        HealingPieces++;
+    }
+
+    public int GetHealtPiece()
+    {
+        return HealingPieces;
     }
 
     public void TakeDamage(int amount)
@@ -34,7 +60,12 @@ public class PlayerHealth : MonoBehaviour
             
             //Destroy(gameObject); // Distrugge l'oggetto del giocatore solo se è ancora attivo
         }
+
+    
+
     }
+
+    
 
 
 }
