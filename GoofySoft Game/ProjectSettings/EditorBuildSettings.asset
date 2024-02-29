@@ -6,11 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main menu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: 8718cb205504146d19de2032e93e5676
   - enabled: 1
     path: Assets/Scenes/ScenaDiGioco.unity
     guid: 873623613419d40799fe5d13b79b2128
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: bac38617b04be4656a713778ed90297b
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 0f5f887ffb74f45dca36289462fc91d2,
       type: 2}
