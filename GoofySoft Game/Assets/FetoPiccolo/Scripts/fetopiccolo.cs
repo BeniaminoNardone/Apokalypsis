@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class fetopiccolo : MonoBehaviour
 {
+    monsterSpawner Spawner;
     public Animator _animator;
     public movementAI movimento;
     public BoxCollider _collider;
@@ -11,6 +12,7 @@ public class fetopiccolo : MonoBehaviour
     int currentHealth;
     int damage = 1;
     public ParticleSystem bloodParticles;
+   
 
     // Start is called before the first frame update
     void Start()
@@ -40,9 +42,17 @@ public class fetopiccolo : MonoBehaviour
 
         ScoreManager.scoreCount += 10;
 
+       if(Spawner != null) Spawner.currentMonster.Remove(this.gameObject);
+
         // Attiva la coroutine per distruggere il GameObject dopo l'animazione di morte
         StartCoroutine(DestroyAfterAnimation());
     }
+
+    public void SetSpawner(monsterSpawner _spawner) {
+        Spawner = _spawner;
+    }
+
+ 
 
     IEnumerator DestroyAfterAnimation()
     {
