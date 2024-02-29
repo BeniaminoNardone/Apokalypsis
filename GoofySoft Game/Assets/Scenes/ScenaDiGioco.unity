@@ -12047,8 +12047,6 @@ MonoBehaviour:
   _collider: {fileID: 1076090060}
   maxHealth: 1
   bloodParticles: {fileID: 1983006867}
-  Coin: {fileID: 5444844468133441686, guid: c19caa5af8338461faa0e2c0f604bbc9, type: 3}
-  dropChance: 0.98
 --- !u!114 &1076090065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13122,6 +13120,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1694130186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1694130188}
+  - component: {fileID: 1694130187}
+  m_Layer: 0
+  m_Name: monsterSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1694130187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694130186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc8a79b56db404eb8976305323bb82da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdownTime: 2
+  waves:
+  - monsterSpawner:
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+  - monsterSpawner:
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+  currentMonster: []
+--- !u!4 &1694130188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694130186}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.2288876, y: 1, z: -9.16729}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1714385811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13287,7 +13344,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822631077}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 696d2496739324efaafc9f8f7b26a867, type: 3}
   m_Name: 
@@ -28631,3 +28688,4 @@ SceneRoots:
   - {fileID: 1983006868}
   - {fileID: 704961109}
   - {fileID: 706125903}
+  - {fileID: 1694130188}
