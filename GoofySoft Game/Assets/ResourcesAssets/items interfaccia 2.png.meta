@@ -144,7 +144,7 @@ TextureImporter:
         width: 511
         height: 501
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -152,6 +152,27 @@ TextureImporter:
       bones: []
       spriteID: b6d75052f63034365b2aa82295353127
       internalID: 819312744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items interfaccia 2_1
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 1749
+        width: 149
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142d05da9e5aa470c9d405ddc6d3fd98
+      internalID: 75178948
       vertices: []
       indices: 
       edges: []
@@ -168,6 +189,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       items interfaccia 2_0: 819312744
+      items interfaccia 2_1: 75178948
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
