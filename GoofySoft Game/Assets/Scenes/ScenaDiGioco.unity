@@ -10911,6 +10911,8 @@ MonoBehaviour:
   _collider: {fileID: 1076090060}
   maxHealth: 1
   bloodParticles: {fileID: 1983006867}
+  Coin: {fileID: 5444844468133441686, guid: c19caa5af8338461faa0e2c0f604bbc9, type: 3}
+  dropChance: 0.98
 --- !u!114 &1076090065
 MonoBehaviour:
   m_ObjectHideFlags: 0

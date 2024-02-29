@@ -11,6 +11,8 @@ public class fetopiccolo : MonoBehaviour
     int currentHealth;
     int damage = 1;
     public ParticleSystem bloodParticles;
+    public GameObject Coin;
+    public float dropChance = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +42,16 @@ public class fetopiccolo : MonoBehaviour
 
         // Attiva la coroutine per distruggere il GameObject dopo l'animazione di morte
         StartCoroutine(DestroyAfterAnimation());
+
+        if (Random.value <= dropChance)
+        {
+            DropCollectible();
+        }
+    }
+
+    void DropCollectible()
+    {
+        Instantiate(Coin, transform.position, Quaternion.identity);
     }
 
     IEnumerator DestroyAfterAnimation()
