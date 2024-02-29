@@ -17,7 +17,7 @@ public class monsterSpawner : MonoBehaviour
 
     [SerializeField][NonReorderable] WaveContent[] waves;
     int currentWave = 0;
-    float spawnRange = 10;
+    float spawnRange = 40;
     public List<GameObject> currentMonster;
     bool isCooldown = false;
     // Start is called before the first frame update
@@ -48,7 +48,7 @@ public class monsterSpawner : MonoBehaviour
     void SpawnWave() {
         for(int i = 0; i < waves[currentWave].GetMonsterSpawnList().Length; i++) {
             
-            GameObject newspawn = Instantiate(waves[currentWave].GetMonsterSpawnList()[i], FindSpawnLoc(),Quaternion.identity);
+            GameObject newspawn = Instantiate(waves[currentWave].GetMonsterSpawnList()[i], FindSpawnLoc(), Quaternion.Euler(33f, 0f, 0f));
             currentMonster.Add(newspawn);
 
             fetopiccolo monster = newspawn.GetComponent<fetopiccolo>();
