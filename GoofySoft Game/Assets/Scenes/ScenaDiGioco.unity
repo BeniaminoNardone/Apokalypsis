@@ -650,6 +650,7 @@ GameObject:
   - component: {fileID: 286869157}
   - component: {fileID: 286869155}
   - component: {fileID: 286869156}
+  - component: {fileID: 286869158}
   m_Layer: 0
   m_Name: Ripple_Ps
   m_TagString: Untagged
@@ -5527,6 +5528,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2142524945}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &286869158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286869154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cbff5971226143609c516762d372cc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &323038097 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5413625861753674802, guid: 1f73959d382c8441aa616075a0ce0a10,
@@ -5789,7 +5802,7 @@ Transform:
   m_GameObject: {fileID: 381366136}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2840153, y: 0, z: 0, w: 0.95881975}
-  m_LocalPosition: {x: 300, y: 8.51, z: 0}
+  m_LocalPosition: {x: 296.42, y: -105.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12175,7 +12188,7 @@ Transform:
   m_GameObject: {fileID: 1047116962}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2840153, y: 0, z: 0, w: 0.95881975}
-  m_LocalPosition: {x: 0, y: 5.71, z: 0}
+  m_LocalPosition: {x: 0, y: 4.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13687,6 +13700,8 @@ MonoBehaviour:
     - {fileID: 381366136}
     - {fileID: 381366136}
   currentMonster: []
+  spawnEffect: {fileID: 3280519133390621004, guid: a71be3e7990efb040a07565c43cbb198,
+    type: 3}
 --- !u!4 &1694130188
 Transform:
   m_ObjectHideFlags: 0
@@ -14308,7 +14323,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983006865}
   serializedVersion: 8
-  lengthInSec: 3.5
+  lengthInSec: 2
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -14384,7 +14399,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 3
       scalar: 2
-      minScalar: 0.0001
+      minScalar: 1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -29256,6 +29271,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: terrain spot 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6812616153082457767, guid: ff0c2b33f78654f6ebaa896ea0c63aa7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7530411256925205057, guid: ff0c2b33f78654f6ebaa896ea0c63aa7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29310,6 +29330,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FlipX
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7610107691143280482, guid: ff0c2b33f78654f6ebaa896ea0c63aa7,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7610107691143280482, guid: ff0c2b33f78654f6ebaa896ea0c63aa7,
+        type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7610107691143280482, guid: ff0c2b33f78654f6ebaa896ea0c63aa7,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7610107691143280482, guid: ff0c2b33f78654f6ebaa896ea0c63aa7,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1836270229
+      objectReference: {fileID: 0}
+    - target: {fileID: 7610107691143280482, guid: ff0c2b33f78654f6ebaa896ea0c63aa7,
+        type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
