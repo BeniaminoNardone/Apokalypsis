@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -57,11 +58,15 @@ public class PlayerHealth : MonoBehaviour
             playerController.enabled = false;
             particelleMortePlayer.transform.position = transform.position; // Imposta la posizione delle particelle sulla posizione del giocatore
             particelleMortePlayer.Play();
-            
+
+
+
+            SceneManager.LoadScene("GameOver");
+
             //Destroy(gameObject); // Distrugge l'oggetto del giocatore solo se è ancora attivo
         }
 
-    
+
 
     }
 

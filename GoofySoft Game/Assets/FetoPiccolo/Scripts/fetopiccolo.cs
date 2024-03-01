@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class fetopiccolo : MonoBehaviour
 {
+    monsterSpawner Spawner;
     public Animator _animator;
     public movementAI movimento;
     public BoxCollider _collider;
@@ -13,6 +14,7 @@ public class fetopiccolo : MonoBehaviour
     public ParticleSystem bloodParticles;
     public GameObject Coin;
     public float dropChance = 0.5f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +44,8 @@ public class fetopiccolo : MonoBehaviour
 
         ScoreManager.scoreCount += 10;
 
+       if(Spawner != null) Spawner.currentMonster.Remove(this.gameObject);
+
         // Attiva la coroutine per distruggere il GameObject dopo l'animazione di morte
         StartCoroutine(DestroyAfterAnimation());
 
@@ -50,11 +54,17 @@ public class fetopiccolo : MonoBehaviour
             DropCollectible();
         }
     }
-
     void DropCollectible()
     {
         Instantiate(Coin, transform.position, Quaternion.identity);
     }
+
+
+    public void SetSpawner(monsterSpawner _spawner) {
+        Spawner = _spawner;
+    }
+
+ 
 
     IEnumerator DestroyAfterAnimation()
     {
