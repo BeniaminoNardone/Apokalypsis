@@ -20,9 +20,17 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Mathf.Clamp(horizontalInput, -1f, 1f);
         verticalInput = Mathf.Clamp(verticalInput, -1f, 1f);
 
+        if (horizontalInput <= 0.3f && horizontalInput >= -0.3f)
+        {
+            horizontalInput = 0;
+        }
+        if (verticalInput <= 0.251f && verticalInput >= -0.251f)
+        {
+            verticalInput = 0;
+        }
+
         int horizontalI = (horizontalInput > 0) ? 1 : (horizontalInput < 0) ? -1 : 0;
         int verticalI = (verticalInput > 0) ? 1 : (verticalInput < 0) ? -1 : 0;
-
         _rigidbody.velocity = new Vector3(horizontalI * _moveSpeed, _rigidbody.velocity.y, verticalI * _moveSpeed);
 
         _animator.SetFloat("Horizontal", horizontalInput);
@@ -31,6 +39,8 @@ public class PlayerController : MonoBehaviour
 
         if (horizontalInput != 0 || verticalInput != 0)
         {
+          
+
             Vector3 moveDirection = new Vector3(horizontalInput, 0f, verticalInput);
             Vector3 attackPointLocalPosition = moveDirection.normalized * 5f;
             Vector3 attackPointWorldPosition = transform.TransformPoint(attackPointLocalPosition);
