@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dc9eb08911e104f1b9471c1b9d69314b
+guid: 1fbf68954a23e4bbcb296aefc000cdfe
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,337 +136,232 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fetostrello 1_0
+      name: Reverse fetostrello_0
       rect:
         serializedVersion: 2
-        x: 70
-        y: 3916
-        width: 790
-        height: 385
+        x: 2548
+        y: 3924
+        width: 779
+        height: 371
       alignment: 9
-      pivot: {x: 0.4487139, y: 0.66261417}
+      pivot: {x: 0.5596969, y: 0.67111033}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7497cf0806bd465a955f9edf784d4d4
-      internalID: -1376004893
+      spriteID: 1eae4ab7be7c94f2eb3ff57a3e73afed
+      internalID: 1209670355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fetostrello 1_1
+      name: Reverse fetostrello_1
       rect:
         serializedVersion: 2
-        x: 1256
-        y: 3942
-        width: 432
-        height: 482
+        x: 1722
+        y: 3931
+        width: 411
+        height: 493
       alignment: 9
-      pivot: {x: 0.43908098, y: 0.48692682}
+      pivot: {x: 0.5773792, y: 0.52523214}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abea8df0591454d33a1b3a290f682717
-      internalID: 1035005256
+      spriteID: 716c792d356f14088b18d63c96defba6
+      internalID: -1350766903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fetostrello 1_2
+      name: Reverse fetostrello_2
       rect:
         serializedVersion: 2
-        x: 2068
+        x: 817
         y: 3780
-        width: 547
-        height: 408
+        width: 499
+        height: 428
       alignment: 9
-      pivot: {x: 0.39733106, y: 0.9381917}
+      pivot: {x: 0.60096365, y: 0.8942255}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de1bdfcadfc70496bbad58b7d73ede88
-      internalID: 679213870
+      spriteID: 14db9614a87d640aa887e35916647500
+      internalID: 890465980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fetostrello 1_3
+      name: Reverse fetostrello_3
       rect:
         serializedVersion: 2
-        x: 3060
-        y: 3704
-        width: 334
-        height: 502
+        x: 38
+        y: 3727
+        width: 291
+        height: 471
       alignment: 9
-      pivot: {x: 0.41848114, y: 0.9014518}
+      pivot: {x: 0.5689124, y: 0.87609166}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90e3f1d586dfc4b19b029da07c6af9a5
-      internalID: 1963718663
+      spriteID: ea5d171578e6c42a0a9426d31760ebab
+      internalID: 521450728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fetostrello 1_4
+      name: Reverse fetostrello_4
       rect:
         serializedVersion: 2
-        x: 37
-        y: 3189
-        width: 865
-        height: 348
+        x: 2511
+        y: 2268
+        width: 795
+        height: 378
       alignment: 9
-      pivot: {x: 0.49145356, y: 0.69118947}
+      pivot: {x: 0.54428405, y: 0.72389954}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0f42cb21d46c48a8aa98e3b2b9ee54b
-      internalID: -465522012
+      spriteID: 480eee12e700d42978a749d45b7aeb32
+      internalID: 1630196532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fetostrello 1_5
+      name: Reverse fetostrello_5
       rect:
         serializedVersion: 2
-        x: 1251
-        y: 3205
-        width: 451
-        height: 491
+        x: 1699
+        y: 2283
+        width: 442
+        height: 513
       alignment: 9
-      pivot: {x: 0.5065382, y: 0.43994787}
+      pivot: {x: 0.5178575, y: 0.5280733}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a423e1487c25c491f8c4c40f20f51f0a
-      internalID: -601093388
+      spriteID: 0230eedbc26004b0785c9291de1a654a
+      internalID: 175874994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fetostrello 1_6
+      name: Reverse fetostrello_6
       rect:
         serializedVersion: 2
-        x: 2039
-        y: 3061
-        width: 558
-        height: 402
+        x: 777
+        y: 2145
+        width: 539
+        height: 407
       alignment: 9
-      pivot: {x: 0.4973582, y: 0.929085}
+      pivot: {x: 0.5766398, y: 0.9117399}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b98c7988a3ff94057ba15905ec630b35
-      internalID: 353254864
+      spriteID: dddb975dbe31b416eb6128c6424dae58
+      internalID: -1797567840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fetostrello 1_7
+      name: Reverse fetostrello_7
       rect:
         serializedVersion: 2
-        x: 3085
-        y: 2994
-        width: 294
-        height: 462
+        x: 17
+        y: 2075
+        width: 288
+        height: 471
       alignment: 9
-      pivot: {x: 0.50501484, y: 0.981858}
+      pivot: {x: 0.5350936, y: 0.97970265}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24e1e9021edc84547ae959b98ccc9df2
-      internalID: -552741712
+      spriteID: 5cde957ef5d734b6a8795bddf599f732
+      internalID: -1906980605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fetostrello 1_8
+      name: Reverse fetostrello_8
       rect:
         serializedVersion: 2
-        x: 100
-        y: 2276
-        width: 778
-        height: 372
+        x: 2812
+        y: 143
+        width: 592
+        height: 587
       alignment: 9
-      pivot: {x: 0.4603492, y: 0.6599285}
+      pivot: {x: 0.7112575, y: 0.48816365}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea2454013222d494a9a031b6ba88f22b
-      internalID: 315763524
+      spriteID: 51c82034923934bb7a3f39743ea4e643
+      internalID: -1731942256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fetostrello 1_9
+      name: Reverse fetostrello_9
       rect:
         serializedVersion: 2
-        x: 1281
-        y: 2280
-        width: 419
-        height: 505
+        x: 1867
+        y: 21
+        width: 692
+        height: 712
       alignment: 9
-      pivot: {x: 0.47370595, y: 0.45200437}
+      pivot: {x: 0.64056677, y: 0.58782613}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d91245b9d4624ef488799a4b5be4105
-      internalID: -444953214
+      spriteID: 2cc5a7e4b927e490c9c8c5ee06f77cbd
+      internalID: 1254490365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fetostrello 1_10
+      name: Reverse fetostrello_10
       rect:
         serializedVersion: 2
-        x: 2110
-        y: 2159
-        width: 493
-        height: 381
+        x: 690
+        y: 7
+        width: 680
+        height: 681
       alignment: 9
-      pivot: {x: 0.42848858, y: 0.9395339}
+      pivot: {x: 0.70435345, y: 0.66324306}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fccc0ab136bd64be4b569a3d46c36954
-      internalID: -2011586272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fetostrello 1_11
-      rect:
-        serializedVersion: 2
-        x: 3108
-        y: 2091
-        width: 266
-        height: 445
-      alignment: 9
-      pivot: {x: 0.47514907, y: 1.0100125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ca34451ed6c64a12a2f28876c54d0ae
-      internalID: 811109650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fetostrello 1_12
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 1340
-        width: 855
-        height: 348
-      alignment: 9
-      pivot: {x: 0.5025772, y: 0.7152801}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bcd20060cf14943fa9a549d100587bbc
-      internalID: -1781123927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fetostrello 1_13
-      rect:
-        serializedVersion: 2
-        x: 1286
-        y: 1355
-        width: 451
-        height: 498
-      alignment: 9
-      pivot: {x: 0.5195429, y: 0.42478213}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1ab7b48102b6499f9a633fa7e8c6230
-      internalID: -1618639853
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fetostrello 1_14
-      rect:
-        serializedVersion: 2
-        x: 2077
-        y: 1216
-        width: 557
-        height: 395
-      alignment: 9
-      pivot: {x: 0.5039562, y: 0.946269}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f7c68438a94b49cbb0c034feaab38cd
-      internalID: -679816043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fetostrello 1_15
-      rect:
-        serializedVersion: 2
-        x: 3139
-        y: 1148
-        width: 265
-        height: 458
-      alignment: 9
-      pivot: {x: 0.5, y: 0.98591423}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6222bf362644456f92e801c8ac17715
-      internalID: -1217098130
+      spriteID: c5e2fdd0d61fb4434976ea7e78944569
+      internalID: -344939006
       vertices: []
       indices: 
       edges: []
@@ -474,7 +369,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8121ec1b1bdc24e69b26ca08b2bd5045
+    spriteID: 146a91aef0f834d3b889d9bfc2f50185
     internalID: 0
     vertices: []
     indices: 
@@ -482,22 +377,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fetostrello 1_0: -1376004893
-      fetostrello 1_1: 1035005256
-      fetostrello 1_10: -2011586272
-      fetostrello 1_11: 811109650
-      fetostrello 1_12: -1781123927
-      fetostrello 1_13: -1618639853
-      fetostrello 1_14: -679816043
-      fetostrello 1_15: -1217098130
-      fetostrello 1_2: 679213870
-      fetostrello 1_3: 1963718663
-      fetostrello 1_4: -465522012
-      fetostrello 1_5: -601093388
-      fetostrello 1_6: 353254864
-      fetostrello 1_7: -552741712
-      fetostrello 1_8: 315763524
-      fetostrello 1_9: -444953214
+      Reverse fetostrello_0: 1209670355
+      Reverse fetostrello_1: -1350766903
+      Reverse fetostrello_10: -344939006
+      Reverse fetostrello_2: 890465980
+      Reverse fetostrello_3: 521450728
+      Reverse fetostrello_4: 1630196532
+      Reverse fetostrello_5: 175874994
+      Reverse fetostrello_6: -1797567840
+      Reverse fetostrello_7: -1906980605
+      Reverse fetostrello_8: -1731942256
+      Reverse fetostrello_9: 1254490365
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
