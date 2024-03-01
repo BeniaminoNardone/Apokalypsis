@@ -31,7 +31,7 @@ public class monsterSpawner : MonoBehaviour
     void Update()
     {
 
-        if(currentMonster.Count == 0 && !isCooldown) {
+        if(currentMonster.Count == 0 && !isCooldown && currentWave<3) {//qui va messa come condizione anche il numero di currentwave < wave impostate-1  altrimenti va out of index
             StartCoroutine(StartCooldown());
         }
         
@@ -47,8 +47,8 @@ public class monsterSpawner : MonoBehaviour
 
     void SpawnWave() {
         for(int i = 0; i < waves[currentWave].GetMonsterSpawnList().Length; i++) {
-            
-            GameObject newspawn = Instantiate(waves[currentWave].GetMonsterSpawnList()[i], FindSpawnLoc(), Quaternion.Euler(33f, 0f, 0f));
+   
+                GameObject newspawn = Instantiate(waves[currentWave].GetMonsterSpawnList()[i], FindSpawnLoc(), Quaternion.Euler(33f, 0f, 0f));
             currentMonster.Add(newspawn);
 
             fetopiccolo monster = newspawn.GetComponent<fetopiccolo>();

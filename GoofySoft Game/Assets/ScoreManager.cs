@@ -34,4 +34,9 @@ public class ScoreManager : MonoBehaviour
          hiScoreText.text = "Hi-Score: " + hiScoreCount;
         
     }
+
+    public static void azzeraScore()
+    {
+        scoreCount = 0;
+    }
 }
