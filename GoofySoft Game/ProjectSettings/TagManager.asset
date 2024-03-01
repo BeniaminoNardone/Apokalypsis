@@ -43,8 +43,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: terreno
+  - name: macchie1
     uniqueID: 2458697067
+    locked: 0
+  - name: macchie2
+    uniqueID: 1539508653
     locked: 0
   - name: Player
     uniqueID: 1720180269
