@@ -606,6 +606,7 @@ RectTransform:
   - {fileID: 1027772563}
   - {fileID: 1131150652}
   - {fileID: 1198922668}
+  - {fileID: 1247791296}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -12656,7 +12657,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -200, y: -130}
+  m_AnchoredPosition: {x: -353, y: -130}
   m_SizeDelta: {x: 420, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1198922669
@@ -12672,6 +12673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1198922670}
+  hiScoreText: {fileID: 1247791298}
 --- !u!114 &1198922670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12788,6 +12790,100 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 144556420}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1247791295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1247791296}
+  - component: {fileID: 1247791299}
+  - component: {fileID: 1247791298}
+  - component: {fileID: 1247791297}
+  m_Layer: 5
+  m_Name: Hi-ScoreBoard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1247791296
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247791295}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 207750065}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -353.00012, y: -220}
+  m_SizeDelta: {x: 420, y: 90}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1247791297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247791295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e2c5a38b0954c80aebbf9a21942a85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1198922670}
+  hiScoreText: {fileID: 1247791298}
+--- !u!114 &1247791298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247791295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.87843144, b: 0.37647063, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+    m_FontSize: 48
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 6
+    m_MaxSize: 141
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Hi-Score: '
+--- !u!222 &1247791299
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247791295}
+  m_CullTransparentMesh: 1
 --- !u!4 &1262217245 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7530411256925205057, guid: ff0c2b33f78654f6ebaa896ea0c63aa7,
@@ -13370,6 +13466,22 @@ MonoBehaviour:
     - {fileID: 1076090057}
     - {fileID: 1076090057}
     - {fileID: 1076090057}
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+  - monsterSpawner:
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+  - monsterSpawner:
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+  - monsterSpawner:
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+    - {fileID: 1076090057}
+  - monsterSpawner:
     - {fileID: 1076090057}
     - {fileID: 1076090057}
     - {fileID: 1076090057}
