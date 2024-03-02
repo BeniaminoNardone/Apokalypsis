@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2629507269494069537}
   - component: {fileID: 8799425909559706040}
-  - component: {fileID: 400028791676217552}
+  - component: {fileID: 602862351639751315}
   m_Layer: 0
   m_Name: assets natura 1-2_16
   m_TagString: Untagged
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1720180269
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 795793795, guid: 34e5c1859e318484e8e91c5a71481552, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -85,8 +85,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &400028791676217552
-BoxCollider:
+--- !u!136 &602862351639751315
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -103,6 +103,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 6.49, y: 5.6416245, z: 2.5}
-  m_Center: {x: 0.000004053116, y: 2.7448525, z: -0.5}
+  serializedVersion: 2
+  m_Radius: 3.74
+  m_Height: 5.75
+  m_Direction: 1
+  m_Center: {x: -0.51, y: 2.7448525, z: 0.00000002916506}
