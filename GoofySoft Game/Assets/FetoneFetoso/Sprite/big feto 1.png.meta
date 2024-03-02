@@ -1,0 +1,1309 @@
+fileFormatVersion: 2
+guid: 0f4939d451bbf43e88b6eced171e6e80
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: big feto 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5582
+        width: 520
+        height: 1086
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798293b44028f424c920c586911b448e
+      internalID: 1345439722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_1
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 5581
+        width: 542
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8286b3bf0be974859865f1f619d7af57
+      internalID: 722572940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_2
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 5581
+        width: 601
+        height: 1087
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e65d63a91c6249adb1316a04f50b427
+      internalID: -1882972047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_3
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 5578
+        width: 541
+        height: 1128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b20c2bc6674479b8a0426ae86f1388
+      internalID: -1426208181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_4
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 5598
+        width: 542
+        height: 1067
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdb5f25335a34a8eb5bb301d1048fc8
+      internalID: 1680540415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_5
+      rect:
+        serializedVersion: 2
+        x: 4661
+        y: 5614
+        width: 601
+        height: 1087
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f9c9c5d7168439b82aa2d83c40358c
+      internalID: -1554168420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_6
+      rect:
+        serializedVersion: 2
+        x: 5545
+        y: 5621
+        width: 541
+        height: 1064
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a96d8d5235e49bfaa24beb3c75faea
+      internalID: -997015522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_7
+      rect:
+        serializedVersion: 2
+        x: 6205
+        y: 5624
+        width: 520
+        height: 1082
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece2a145984954bf5a2945894390f562
+      internalID: 271467754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4353
+        width: 518
+        height: 1077
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082596198a4b547709b597789b911ea8
+      internalID: -377726719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_9
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 4350
+        width: 535
+        height: 1060
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd00b89f2f6340298fc3adbb5f02c99
+      internalID: -2007192302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_10
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 4353
+        width: 603
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827a5c4e8215942f7aeabe00938fcc22
+      internalID: 863407586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_11
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 4343
+        width: 538
+        height: 1067
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0e5b222d3324941a89a86ee7e6cb5e
+      internalID: 1577897525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_12
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 4361
+        width: 538
+        height: 1066
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786268b2cf46442e0ba49be7192a9b31
+      internalID: -652656162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_13
+      rect:
+        serializedVersion: 2
+        x: 4655
+        y: 4386
+        width: 601
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffef2d50640ae4511b7ddfa7682d606e
+      internalID: 335727622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_14
+      rect:
+        serializedVersion: 2
+        x: 5548
+        y: 4389
+        width: 538
+        height: 1061
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c8a5edff2634365aa45ef89b17efd8
+      internalID: 202220106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_15
+      rect:
+        serializedVersion: 2
+        x: 6205
+        y: 4396
+        width: 518
+        height: 1076
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89901ad220cbf440da0b4a11f88848c9
+      internalID: 1344810332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3102
+        width: 524
+        height: 1087
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29365ecfa3ed344b7822e9b3801eb6b6
+      internalID: -1949013469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_17
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 3102
+        width: 522
+        height: 1087
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ecb5ebe34d04eb19ba4a73baac2ba4
+      internalID: 1585226747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_18
+      rect:
+        serializedVersion: 2
+        x: 3844
+        y: 3269
+        width: 709
+        height: 978
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4af051ccfd34576a7dbafe9d8e6f6b
+      internalID: -1002766443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_19
+      rect:
+        serializedVersion: 2
+        x: 4907
+        y: 3335
+        width: 854
+        height: 818
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f974ee3e28f42ecaffdab62ca7a20a
+      internalID: -1486242449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_20
+      rect:
+        serializedVersion: 2
+        x: 6008
+        y: 3333
+        width: 717
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e306742f10c447d83aebba4eb706ec
+      internalID: 990067093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_21
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 2836
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb59ea662233e4dd5985308be83a02ba
+      internalID: 2097940643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_22
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 2800
+        width: 99
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fb1dd7c7d4f48bc8de20aa29002f81
+      internalID: 896191863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_23
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 2744
+        width: 237
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7a1263dffbc4ceda5aea9fc4febc54
+      internalID: -693023579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_24
+      rect:
+        serializedVersion: 2
+        x: 3844
+        y: 2350
+        width: 722
+        height: 876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e0aaf433f144c8a943012c389fda77
+      internalID: 1722626737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_25
+      rect:
+        serializedVersion: 2
+        x: 4881
+        y: 2366
+        width: 854
+        height: 818
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd4edaaa5dc042aa965654aa3728537
+      internalID: -1663009468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_26
+      rect:
+        serializedVersion: 2
+        x: 6017
+        y: 0
+        width: 708
+        height: 3289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5a3527ceb364e558ec2cf4f976fc33
+      internalID: 1218969789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2635
+        width: 297
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f68d511e51e4ba080179cb439eff04
+      internalID: 742599298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_28
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 2475
+        width: 453
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049e19b8ff2a345179c60b8b6a6fbb83
+      internalID: 1779362546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_29
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 2724
+        width: 53
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d0155169825492589421d4aa448c5d
+      internalID: -578957986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_30
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 2488
+        width: 469
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3711e1b3f08438d80bcf46ca7ba65b
+      internalID: 1261948214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_31
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 2576
+        width: 88
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0aa8ee33b9784a179de74b917b92ca8
+      internalID: -933673835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2698
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c820a62fafd4f4db8f3bd4e93547be
+      internalID: 1055635121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_33
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 2629
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaa2fdd767614d5b90e00490a21c526
+      internalID: 230420002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_34
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 2635
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70f663d6bffb45aaa6d7da01fc76789
+      internalID: -133536862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_35
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 2599
+        width: 117
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627766f12b45748a99b1eb73b69bd2bf
+      internalID: -936133798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_36
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2563
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813ef95448a8546ccbbd7bdb4961a778
+      internalID: -872146204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_37
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 2429
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1049354dd854332a2dc8ac32231077
+      internalID: -1128823152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_38
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 2458
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc62d575ccb0843db882a71108ce4513
+      internalID: 741591906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1933
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577f6ff78691842b2b742733de944802
+      internalID: -1656619674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_40
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1220
+        width: 509
+        height: 952
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34169229f41f4ff7a2e447a5b80e547
+      internalID: 1126977597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_41
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1213
+        width: 690
+        height: 953
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991dc4ada6f9845338ae993a590ec35a
+      internalID: -213136523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_42
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1233
+        width: 864
+        height: 920
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aea09d3dc9ec4e7683f0c2a6700aaa7
+      internalID: 696192557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_44
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 1230
+        width: 712
+        height: 952
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb43b9860bdce45938d5f2c52d3600f0
+      internalID: -2015620079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_45
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1828
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8c562509beb48e999ee44223f5f7b1
+      internalID: -505296322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_46
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1844
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17093a64d372b4ba8a27bee07113dcb0
+      internalID: -399624289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_47
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 15
+        width: 740
+        height: 952
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3392a15fc5e9d4b92a5cde3014c4e224
+      internalID: 1088469704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_49
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 15
+        width: 729
+        height: 922
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c4a1e06305640dd8f748fbb0bf5fe9
+      internalID: -1458044996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_50
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 0
+        width: 679
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3e989b8c52846d4a8db9ae906b3be1
+      internalID: -1470377369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_51
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 5
+        width: 509
+        height: 952
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b3f8acf859a4bcc87fd7dfa217ca13
+      internalID: 1486969514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_52
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 718
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c016d6e8d42e640c9bb3a243c8afc761
+      internalID: -2013579560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_53
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 629
+        width: 52
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27bca8c02aca4657ba835c365f6d0d9
+      internalID: 90833951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big feto 1_54
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 613
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fce9ef9dd7d64ad8951d43856c2179d
+      internalID: -1514951579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3230e836dad364d6c853a73308538481
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      big feto 1_0: 1345439722
+      big feto 1_1: 722572940
+      big feto 1_10: 863407586
+      big feto 1_11: 1577897525
+      big feto 1_12: -652656162
+      big feto 1_13: 335727622
+      big feto 1_14: 202220106
+      big feto 1_15: 1344810332
+      big feto 1_16: -1949013469
+      big feto 1_17: 1585226747
+      big feto 1_18: -1002766443
+      big feto 1_19: -1486242449
+      big feto 1_2: -1882972047
+      big feto 1_20: 990067093
+      big feto 1_21: 2097940643
+      big feto 1_22: 896191863
+      big feto 1_23: -693023579
+      big feto 1_24: 1722626737
+      big feto 1_25: -1663009468
+      big feto 1_26: 1218969789
+      big feto 1_27: 742599298
+      big feto 1_28: 1779362546
+      big feto 1_29: -578957986
+      big feto 1_3: -1426208181
+      big feto 1_30: 1261948214
+      big feto 1_31: -933673835
+      big feto 1_32: 1055635121
+      big feto 1_33: 230420002
+      big feto 1_34: -133536862
+      big feto 1_35: -936133798
+      big feto 1_36: -872146204
+      big feto 1_37: -1128823152
+      big feto 1_38: 741591906
+      big feto 1_39: -1656619674
+      big feto 1_4: 1680540415
+      big feto 1_40: 1126977597
+      big feto 1_41: -213136523
+      big feto 1_42: 696192557
+      big feto 1_43: 1951733458
+      big feto 1_44: -2015620079
+      big feto 1_45: -505296322
+      big feto 1_46: -399624289
+      big feto 1_47: 1088469704
+      big feto 1_48: 155996922
+      big feto 1_49: -1458044996
+      big feto 1_5: -1554168420
+      big feto 1_50: -1470377369
+      big feto 1_51: 1486969514
+      big feto 1_52: -2013579560
+      big feto 1_53: 90833951
+      big feto 1_54: -1514951579
+      big feto 1_55: -954620290
+      big feto 1_6: -997015522
+      big feto 1_7: 271467754
+      big feto 1_8: -377726719
+      big feto 1_9: -2007192302
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
