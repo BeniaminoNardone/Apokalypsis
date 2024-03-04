@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: ac0b33af38be34f7cbe3d849665a1392
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 379
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20231c94d6486402e8014cfe27ad9c4e
+      internalID: 1505950387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_1
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1752
+        width: 524
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f51a2a03fcd4fc8810b2915d021e56
+      internalID: 1978728991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_2
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1779
+        width: 486
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525d7d5eacc464d8f9e0427f54418c14
+      internalID: -1312636491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_3
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 1633
+        width: 336
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806d894fb5f904161a3d100518bd18c8
+      internalID: 1461078719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_4
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1620
+        width: 285
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc2e945a5077465ab77908a8fec7f7b
+      internalID: -718010296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1107
+        width: 331
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d677d44cabaee43f1940e74253f5d3a7
+      internalID: 1727988603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_6
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1171
+        width: 315
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2cdd01eae4a4b398449563a645a843
+      internalID: -1041722490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_7
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1160
+        width: 304
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55369c4897c074c14accacdf2ecf276b
+      internalID: -583026978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_8
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1157
+        width: 311
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c01b31eaa514e5c8b7d4ed78dec3fc
+      internalID: -1553813306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_9
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1083
+        width: 285
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94ef66d6598d4e178e5775f4d441d7a
+      internalID: 833655706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_10
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1083
+        width: 286
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697b9ad392392464798c02fb3edac1c9
+      internalID: 1171998799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_11
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 1083
+        width: 290
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d69415c415b4107a1fa238464561cd
+      internalID: -1015332489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_12
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 1086
+        width: 296
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca6802cb9dd9414bbb05007e97ab3c0
+      internalID: 1417747516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_13
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 532
+        width: 311
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c5552d9b3d34d438d6a13dcaab02d1
+      internalID: 298646475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_14
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 534
+        width: 311
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d418c3f6face43919e01e8f7a50fcb5
+      internalID: 325776449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_15
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 536
+        width: 317
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5a0aec61b78408bb75a6d280448b61
+      internalID: 1100398734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_16
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 549
+        width: 322
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40fda1a84e584eb8be4f0d821e8fe37
+      internalID: -718944615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_17
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 554
+        width: 311
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8521a32695835408da6c186ec8f90b26
+      internalID: -885046772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_18
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 552
+        width: 315
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5652581c51df449e94cace52b81f10a
+      internalID: -569538950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_19
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 545
+        width: 313
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5200778ea3d74e8380e536d2fa01831
+      internalID: -882004716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_20
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 540
+        width: 316
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2c809e8ab1043b2b83e000592e15c4
+      internalID: 14871887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 302
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda7562bcb99f40deb826a78ef911b21
+      internalID: 2007080411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_22
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 305
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea8a42a9a36f485aa9ab00a4f92e7bc
+      internalID: 6340071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_23
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 0
+        width: 307
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c43525894c74e0a9ada881cc6b0ced
+      internalID: -1935927205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_24
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 15
+        width: 94
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f802042adabca420ea6308a857edb84d
+      internalID: 1185497773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golden feto 1 copia 3_25
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 15
+        width: 96
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c00dd369fba4e5b9fe3d041f549eef
+      internalID: 1879157457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3c9d20d5dc2d4405e83a6c0f83e2c016
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      golden feto 1 copia 3_0: 1505950387
+      golden feto 1 copia 3_1: 1978728991
+      golden feto 1 copia 3_10: 1171998799
+      golden feto 1 copia 3_11: -1015332489
+      golden feto 1 copia 3_12: 1417747516
+      golden feto 1 copia 3_13: 298646475
+      golden feto 1 copia 3_14: 325776449
+      golden feto 1 copia 3_15: 1100398734
+      golden feto 1 copia 3_16: -718944615
+      golden feto 1 copia 3_17: -885046772
+      golden feto 1 copia 3_18: -569538950
+      golden feto 1 copia 3_19: -882004716
+      golden feto 1 copia 3_2: -1312636491
+      golden feto 1 copia 3_20: 14871887
+      golden feto 1 copia 3_21: 2007080411
+      golden feto 1 copia 3_22: 6340071
+      golden feto 1 copia 3_23: -1935927205
+      golden feto 1 copia 3_24: 1185497773
+      golden feto 1 copia 3_25: 1879157457
+      golden feto 1 copia 3_3: 1461078719
+      golden feto 1 copia 3_4: -718010296
+      golden feto 1 copia 3_5: 1727988603
+      golden feto 1 copia 3_6: -1041722490
+      golden feto 1 copia 3_7: -583026978
+      golden feto 1 copia 3_8: -1553813306
+      golden feto 1 copia 3_9: 833655706
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
