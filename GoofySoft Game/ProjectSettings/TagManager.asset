@@ -6,6 +6,7 @@ TagManager:
   tags:
   - MusicIntroduction
   - Enemy
+  - bobbio
   layers:
   - Default
   - TransparentFX
