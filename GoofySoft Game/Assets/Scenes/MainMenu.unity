@@ -687,6 +687,7 @@ GameObject:
   - component: {fileID: 1108626091}
   - component: {fileID: 1108626090}
   - component: {fileID: 1108626089}
+  - component: {fileID: 1108626092}
   m_Layer: 5
   m_Name: Credits
   m_TagString: Untagged
@@ -758,9 +759,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1091139862}
-        m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
-        m_MethodName: PlayGame
+      - m_Target: {fileID: 1108626092}
+        m_TargetAssemblyTypeName: GestoreScene, Assembly-CSharp
+        m_MethodName: Credits
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -769,7 +770,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1108626090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -808,6 +809,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108626087}
   m_CullTransparentMesh: 1
+--- !u!114 &1108626092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108626087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 577bc443a170342d9a4bf58b9fe4e559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1484580665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1021,6 +1034,7 @@ GameObject:
   - component: {fileID: 1617147285}
   - component: {fileID: 1617147284}
   - component: {fileID: 1617147283}
+  - component: {fileID: 1617147286}
   m_Layer: 5
   m_Name: Trofei
   m_TagString: Untagged
@@ -1092,9 +1106,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1091139862}
-        m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
-        m_MethodName: PlayGame
+      - m_Target: {fileID: 1617147286}
+        m_TargetAssemblyTypeName: GestoreScene, Assembly-CSharp
+        m_MethodName: Trofei
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1142,6 +1156,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617147281}
   m_CullTransparentMesh: 1
+--- !u!114 &1617147286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617147281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 577bc443a170342d9a4bf58b9fe4e559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1731736203
 GameObject:
   m_ObjectHideFlags: 0

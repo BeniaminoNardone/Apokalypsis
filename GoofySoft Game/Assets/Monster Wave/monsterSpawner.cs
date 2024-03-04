@@ -33,7 +33,7 @@ public class monsterSpawner : MonoBehaviour
     void Update()
     {
 
-        if(currentMonster.Count == 0 && !isCooldown && currentWave<3) {//qui va messa come condizione anche il numero di currentwave < wave impostate-1  altrimenti va out of index
+        if(currentMonster.Count == 0 && !isCooldown && currentWave<waves.Length) {//qui va messa come condizione anche il numero di currentwave < wave impostate-1  altrimenti va out of index
             StartCoroutine(StartCooldown());
         }
         

@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GameOverScreen : MonoBehaviour
+public class GestoreScene : MonoBehaviour
 {
       
 
@@ -20,5 +20,25 @@ public class GameOverScreen : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
         ScoreManager.azzeraScore();
 
+    }
+
+    public void PlayGame()
+    {
+        SceneManager.LoadSceneAsync(1);
+    }
+
+    public void Home()
+    {
+        SceneManager.LoadSceneAsync("MainMenu");
+    }
+
+    public void Credits()
+    {
+        SceneManager.LoadSceneAsync("Credits");
+    }
+
+    public void Trofei()
+    {
+        SceneManager.LoadSceneAsync("Trofei");
     }
 }
