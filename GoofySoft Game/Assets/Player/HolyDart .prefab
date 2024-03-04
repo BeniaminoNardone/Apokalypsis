@@ -75,7 +75,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1720180269
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 966073382, guid: 255aa0bf6bb0a492badca7f8ae776e2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -149,7 +149,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 69
+  dartTransform: {fileID: 1931072779714360057}
   dartRigidbody: {fileID: -1733395290640416216}
+  dartExplosionParticels: {fileID: 125796466860155731, guid: 2b2d91752c7fd430eb31bcb645f84c04,
+    type: 3}
 --- !u!1 &7746214149528034840
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,7 +225,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1720180269
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 966073382, guid: 255aa0bf6bb0a492badca7f8ae776e2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

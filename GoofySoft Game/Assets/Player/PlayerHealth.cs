@@ -24,7 +24,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void HealPlayer()
     {
-        if (HealingPieces >= 3)//se ho una fiala completa
+        if (HealingPieces >= 3 && health!=maxHealth)//se ho una fiala completa
         {
             health++;
             HealingPieces = 0;
@@ -35,6 +35,7 @@ public class PlayerHealth : MonoBehaviour
     public void IncrementHealtPiece()
     {
         HealingPieces++;
+        Debug.Log(" HealingPieces++ ");
     }
 
     public int GetHealtPiece()
@@ -70,7 +71,8 @@ public class PlayerHealth : MonoBehaviour
 
     }
 
-    
+ 
+
 
 
 }

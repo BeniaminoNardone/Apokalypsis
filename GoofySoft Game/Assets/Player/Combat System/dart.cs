@@ -5,7 +5,9 @@ using UnityEngine;
 public class dart : MonoBehaviour
 {
     public float speed= 200f;
+    public Transform dartTransform;
     public Rigidbody dartRigidbody;
+    public ParticleSystem dartExplosionParticels;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +41,7 @@ public class dart : MonoBehaviour
     }
 
     private void dartExplosion() {
+            Instantiate(dartExplosionParticels, dartTransform.position, Quaternion.identity);
 
         Destroy(gameObject);
 

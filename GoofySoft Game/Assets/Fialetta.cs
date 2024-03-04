@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
-  
 using UnityEngine;
 
-public class EnemyDamage : MonoBehaviour
+public class Fialetta : MonoBehaviour
 {
     private PlayerHealth playerHealth;
-    public int damage = 1;
+
+    // Start is called before the first frame update
 
     private void Start()
     {
@@ -17,16 +17,22 @@ public class EnemyDamage : MonoBehaviour
         {
             Debug.LogError("PlayerHealth non trovato nel giocatore.");
         }
+ 
     }
+
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+         if (collision.gameObject.CompareTag("Player"))
         {
+ 
             // Assicurati che il componente PlayerHealth sia stato trovato prima di chiamare TakeDamage
             if (playerHealth != null)
             {
-                playerHealth.TakeDamage(damage);
+ 
+                playerHealth.IncrementHealtPiece();
+                Destroy(gameObject);
+ 
             }
         }
     }
