@@ -5780,7 +5780,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1720180269
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -1376004893, guid: dc9eb08911e104f1b9471c1b9d69314b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12237,7 +12237,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1720180269
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 1537067834, guid: e580895b6e4bc4651917d441c5fcf592, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12470,7 +12470,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1720180269
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -472528257, guid: 1fda65fbce257433a9c1c8438377f569, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -19257,6 +19257,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991293069}
   m_CullTransparentMesh: 1
+--- !u!1 &1997140943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1997140944}
+  m_Layer: 0
+  m_Name: ciaomanusk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1997140944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997140943}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.7, y: 14.7, z: -56.972645}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2019067665
 GameObject:
   m_ObjectHideFlags: 0
@@ -29450,3 +29481,4 @@ SceneRoots:
   - {fileID: 706125903}
   - {fileID: 1694130188}
   - {fileID: 857898867}
+  - {fileID: 1997140944}
