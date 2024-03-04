@@ -8546,13 +8546,38 @@ MonoBehaviour:
   - monsterSpawner:
     - {fileID: 1410897021173606304, guid: beb94de93f1ed46fa889964bb44a2ded, type: 3}
     - {fileID: 7705118848957622696, guid: cd45be58735984de4ac9e208000af0f4, type: 3}
-    - {fileID: 7733781240550931078, guid: f8d73183fba66410ebd0bddc747a236d, type: 3}
-    - {fileID: 7733781240550931078, guid: f8d73183fba66410ebd0bddc747a236d, type: 3}
   - monsterSpawner:
     - {fileID: 7705118848957622696, guid: cd45be58735984de4ac9e208000af0f4, type: 3}
     - {fileID: 7705118848957622696, guid: cd45be58735984de4ac9e208000af0f4, type: 3}
     - {fileID: 5295384141362346787, guid: 7d87ceff3b4444f768e9e5943eb8ce70, type: 3}
     - {fileID: 5295384141362346787, guid: 7d87ceff3b4444f768e9e5943eb8ce70, type: 3}
+  - monsterSpawner:
+    - {fileID: 7705118848957622696, guid: cd45be58735984de4ac9e208000af0f4, type: 3}
+    - {fileID: 7705118848957622696, guid: cd45be58735984de4ac9e208000af0f4, type: 3}
+    - {fileID: 7733781240550931078, guid: f8d73183fba66410ebd0bddc747a236d, type: 3}
+    - {fileID: 7733781240550931078, guid: f8d73183fba66410ebd0bddc747a236d, type: 3}
+    - {fileID: 7733781240550931078, guid: f8d73183fba66410ebd0bddc747a236d, type: 3}
+  - monsterSpawner:
+    - {fileID: 7705118848957622696, guid: cd45be58735984de4ac9e208000af0f4, type: 3}
+    - {fileID: 7705118848957622696, guid: cd45be58735984de4ac9e208000af0f4, type: 3}
+  - monsterSpawner:
+    - {fileID: 7705118848957622696, guid: cd45be58735984de4ac9e208000af0f4, type: 3}
+    - {fileID: 5295384141362346787, guid: 7d87ceff3b4444f768e9e5943eb8ce70, type: 3}
+    - {fileID: 7733781240550931078, guid: f8d73183fba66410ebd0bddc747a236d, type: 3}
+    - {fileID: 5295384141362346787, guid: 7d87ceff3b4444f768e9e5943eb8ce70, type: 3}
+    - {fileID: 1410897021173606304, guid: beb94de93f1ed46fa889964bb44a2ded, type: 3}
+  - monsterSpawner:
+    - {fileID: 5295384141362346787, guid: 7d87ceff3b4444f768e9e5943eb8ce70, type: 3}
+    - {fileID: 5295384141362346787, guid: 7d87ceff3b4444f768e9e5943eb8ce70, type: 3}
+    - {fileID: 5295384141362346787, guid: 7d87ceff3b4444f768e9e5943eb8ce70, type: 3}
+    - {fileID: 5295384141362346787, guid: 7d87ceff3b4444f768e9e5943eb8ce70, type: 3}
+    - {fileID: 1410897021173606304, guid: beb94de93f1ed46fa889964bb44a2ded, type: 3}
+  - monsterSpawner:
+    - {fileID: 2485893173970253054, guid: 9b2a59e2709644f69bf1a016194b3e07, type: 3}
+    - {fileID: 2485893173970253054, guid: 9b2a59e2709644f69bf1a016194b3e07, type: 3}
+    - {fileID: 2485893173970253054, guid: 9b2a59e2709644f69bf1a016194b3e07, type: 3}
+    - {fileID: 2485893173970253054, guid: 9b2a59e2709644f69bf1a016194b3e07, type: 3}
+    - {fileID: 2485893173970253054, guid: 9b2a59e2709644f69bf1a016194b3e07, type: 3}
   currentMonster: []
   spawnEffect: {fileID: 3280519133390621004, guid: a71be3e7990efb040a07565c43cbb198,
     type: 3}
