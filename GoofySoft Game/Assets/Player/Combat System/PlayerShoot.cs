@@ -20,6 +20,12 @@ public class PlayerShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Controlla se è stato premuto il pulsante X del DualSense 5
+        if (Input.GetButtonDown("AttaccoDart"))
+        {
+            // Chiama la funzione del tuo personaggio
+           Shoot();
+        }
 
         float horizontalInput = (_joystick.Horizontal != 0) ? _joystick.Horizontal : Input.GetAxis("Horizontal");
         float verticalInput = (_joystick.Vertical != 0) ? _joystick.Vertical : Input.GetAxis("Vertical");

@@ -12,8 +12,17 @@ public class PlayerCombat : MonoBehaviour
    
     
     ParticleSystem blood;
+    public void Update()
+    {
+        // Controlla se è stato premuto il pulsante X del DualSense 5
+        if (Input.GetButtonDown("AttaccoMlee"))
+        {
+            // Chiama la funzione del tuo personaggio
+            Attack();
+        }
+    }
 
-     public void Attack(){
+    public void Attack(){
         //play animation
         animator.SetTrigger("IsMleeAttack");
 

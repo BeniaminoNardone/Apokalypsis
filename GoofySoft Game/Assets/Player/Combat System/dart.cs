@@ -26,12 +26,22 @@ public class dart : MonoBehaviour
             if (enemy != null)
             {
                 enemy.TakeDamage();
+                dartExplosion();
+
             }
             else
             {
                 Debug.LogWarning("Il collider non ha il componente 'fetopiccolo'.");
             }
             Debug.Log(hitInfo.name);
+
         }
     }
+
+    private void dartExplosion() {
+
+        Destroy(gameObject);
+
+    }
+
 }
