@@ -71,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1720180269
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 429293593, guid: 34e5c1859e318484e8e91c5a71481552, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -155,7 +155,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1720180269
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 1296319085, guid: 34e5c1859e318484e8e91c5a71481552, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6081803771297141965}
   - component: {fileID: 5636513151788132939}
-  - component: {fileID: 8926580421832907860}
+  - component: {fileID: 6642699381246016019}
   m_Layer: 0
   m_Name: albero cespuglio 3
   m_TagString: Untagged
@@ -243,7 +243,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1720180269
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 1163282366, guid: 34e5c1859e318484e8e91c5a71481552, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -256,8 +256,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &8926580421832907860
-BoxCollider:
+--- !u!136 &6642699381246016019
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -274,9 +274,11 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 3.59, y: 10.513028, z: 4.2000003}
-  m_Center: {x: 0, y: 5.153418, z: 0.00000007579996}
+  serializedVersion: 2
+  m_Radius: 1.2
+  m_Height: 8.83
+  m_Direction: 1
+  m_Center: {x: 0, y: 4.23, z: 0.00000007579996}
 --- !u!1 &9063176296284059466
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,7 +350,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1720180269
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 1599627741, guid: 34e5c1859e318484e8e91c5a71481552, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

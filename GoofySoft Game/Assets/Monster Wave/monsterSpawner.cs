@@ -17,9 +17,11 @@ public class monsterSpawner : MonoBehaviour
 
     [SerializeField][NonReorderable] WaveContent[] waves;
     int currentWave = 0;
-    float spawnRange = 40;
+    float spawnRange = 60;
     public List<GameObject> currentMonster;
     bool isCooldown = false;
+    public ParticleSystem spawnEffect; // Aggiungi qui il riferimento all'effetto particellare
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -45,18 +47,52 @@ public class monsterSpawner : MonoBehaviour
         SpawnWave();
     }
 
-    void SpawnWave() {
-        for(int i = 0; i < waves[currentWave].GetMonsterSpawnList().Length; i++) {
-   
-                GameObject newspawn = Instantiate(waves[currentWave].GetMonsterSpawnList()[i], FindSpawnLoc(), Quaternion.Euler(33f, 0f, 0f));
-            currentMonster.Add(newspawn);
+    /* void SpawnWave() {
+         for(int i = 0; i < waves[currentWave].GetMonsterSpawnList().Length; i++) {
+             Vector3 SpawnPos= FindSpawnLoc();
 
-            fetopiccolo monster = newspawn.GetComponent<fetopiccolo>();
-            monster.SetSpawner(this);
 
-            
-}
+              // Attiva l'effetto particellare al momento dello spawn
+             Instantiate(spawnEffect, SpawnPos, Quaternion.identity);
+             GameObject newspawn = Instantiate(waves[currentWave].GetMonsterSpawnList()[i], SpawnPos, Quaternion.Euler(33f, 0f, 0f));
+             currentMonster.Add(newspawn);
+
+             fetopiccolo monster = newspawn.GetComponent<fetopiccolo>();
+             monster.SetSpawner(this);
+
+
+         }
+     }*/
+    //questo è piu bello da vedere ma istanzia 2 waves alla volta
+
+    void SpawnWave()
+    {
+        for (int i = 0; i < waves[currentWave].GetMonsterSpawnList().Length; i++)
+        {
+            Vector3 SpawnPos = FindSpawnLoc();
+
+            // Attiva l'effetto particellare
+            Instantiate(spawnEffect, SpawnPos, Quaternion.identity);
+
+            // Invoca l'istanza del mostro dopo un ritardo di 2 secondi
+            StartCoroutine(SpawnMonsterWithDelay(SpawnPos, i, 2f));
+        }
     }
+
+    IEnumerator SpawnMonsterWithDelay(Vector3 SpawnPos, int index, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        GameObject newspawn = Instantiate(waves[currentWave].GetMonsterSpawnList()[index], SpawnPos, Quaternion.Euler(33f, 0f, 0f));
+        currentMonster.Add(newspawn);
+
+        fetopiccolo monster = newspawn.GetComponent<fetopiccolo>();
+        monster.SetSpawner(this);
+    }
+
+
+
+
 
     Vector3 FindSpawnLoc() {
 

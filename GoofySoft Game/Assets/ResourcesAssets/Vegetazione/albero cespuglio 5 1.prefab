@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8093123135742039870}
   - component: {fileID: 5642894773902712661}
-  - component: {fileID: 3720341943688962468}
+  - component: {fileID: 7678440855334602045}
   m_Layer: 0
   m_Name: albero cespuglio 5 1
   m_TagString: Untagged
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1720180269
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 795793795, guid: 34e5c1859e318484e8e91c5a71481552, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -86,8 +86,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &3720341943688962468
-BoxCollider:
+--- !u!136 &7678440855334602045
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -104,9 +104,11 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 6.49, y: 5.6416245, z: 4.2}
-  m_Center: {x: 0.000004053116, y: 2.7448525, z: 0.00000002916506}
+  serializedVersion: 2
+  m_Radius: 2.7
+  m_Height: 2.44
+  m_Direction: 1
+  m_Center: {x: 0, y: 2.64, z: 0.00000007210528}
 --- !u!1 &7988106416928802127
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,7 +180,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1720180269
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 767483241, guid: 34e5c1859e318484e8e91c5a71481552, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

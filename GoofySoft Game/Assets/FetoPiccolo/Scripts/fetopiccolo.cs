@@ -14,7 +14,7 @@ public class fetopiccolo : MonoBehaviour
     public ParticleSystem bloodParticles;
     public GameObject Coin;
     public float dropChance = 0.5f;
-
+ 
 
     // Start is called before the first frame update
     void Start()

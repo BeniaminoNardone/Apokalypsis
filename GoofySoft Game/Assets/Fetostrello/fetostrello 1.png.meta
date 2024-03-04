@@ -219,6 +219,258 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: fetostrello 1_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 3189
+        width: 865
+        height: 348
+      alignment: 9
+      pivot: {x: 0.49145356, y: 0.69118947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f42cb21d46c48a8aa98e3b2b9ee54b
+      internalID: -465522012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fetostrello 1_5
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 3205
+        width: 451
+        height: 491
+      alignment: 9
+      pivot: {x: 0.5065382, y: 0.43994787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a423e1487c25c491f8c4c40f20f51f0a
+      internalID: -601093388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fetostrello 1_6
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 3061
+        width: 558
+        height: 402
+      alignment: 9
+      pivot: {x: 0.4973582, y: 0.929085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98c7988a3ff94057ba15905ec630b35
+      internalID: 353254864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fetostrello 1_7
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 2994
+        width: 294
+        height: 462
+      alignment: 9
+      pivot: {x: 0.50501484, y: 0.981858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e1e9021edc84547ae959b98ccc9df2
+      internalID: -552741712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fetostrello 1_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2276
+        width: 778
+        height: 372
+      alignment: 9
+      pivot: {x: 0.4603492, y: 0.6599285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2454013222d494a9a031b6ba88f22b
+      internalID: 315763524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fetostrello 1_9
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 2280
+        width: 419
+        height: 505
+      alignment: 9
+      pivot: {x: 0.47370595, y: 0.45200437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d91245b9d4624ef488799a4b5be4105
+      internalID: -444953214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fetostrello 1_10
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 2159
+        width: 493
+        height: 381
+      alignment: 9
+      pivot: {x: 0.42848858, y: 0.9395339}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccc0ab136bd64be4b569a3d46c36954
+      internalID: -2011586272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fetostrello 1_11
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 2091
+        width: 266
+        height: 445
+      alignment: 9
+      pivot: {x: 0.47514907, y: 1.0100125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca34451ed6c64a12a2f28876c54d0ae
+      internalID: 811109650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fetostrello 1_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1340
+        width: 855
+        height: 348
+      alignment: 9
+      pivot: {x: 0.5025772, y: 0.7152801}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd20060cf14943fa9a549d100587bbc
+      internalID: -1781123927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fetostrello 1_13
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1355
+        width: 451
+        height: 498
+      alignment: 9
+      pivot: {x: 0.5195429, y: 0.42478213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ab7b48102b6499f9a633fa7e8c6230
+      internalID: -1618639853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fetostrello 1_14
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 1216
+        width: 557
+        height: 395
+      alignment: 9
+      pivot: {x: 0.5039562, y: 0.946269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7c68438a94b49cbb0c034feaab38cd
+      internalID: -679816043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fetostrello 1_15
+      rect:
+        serializedVersion: 2
+        x: 3139
+        y: 1148
+        width: 265
+        height: 458
+      alignment: 9
+      pivot: {x: 0.5, y: 0.98591423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6222bf362644456f92e801c8ac17715
+      internalID: -1217098130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -232,8 +484,20 @@ TextureImporter:
     nameFileIdTable:
       fetostrello 1_0: -1376004893
       fetostrello 1_1: 1035005256
+      fetostrello 1_10: -2011586272
+      fetostrello 1_11: 811109650
+      fetostrello 1_12: -1781123927
+      fetostrello 1_13: -1618639853
+      fetostrello 1_14: -679816043
+      fetostrello 1_15: -1217098130
       fetostrello 1_2: 679213870
       fetostrello 1_3: 1963718663
+      fetostrello 1_4: -465522012
+      fetostrello 1_5: -601093388
+      fetostrello 1_6: 353254864
+      fetostrello 1_7: -552741712
+      fetostrello 1_8: 315763524
+      fetostrello 1_9: -444953214
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
