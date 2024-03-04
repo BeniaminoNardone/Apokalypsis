@@ -42,10 +42,20 @@ public class PlayerHealth : MonoBehaviour
         return HealingPieces;
     }
 
+    AudioManager audioManager;
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+
+    }
+
     public void TakeDamage(int amount)
     {
+
         health -= amount;
+        audioManager.PlaySFX(audioManager.DannoGesù);
         if (health <= 0)
+    
         {
             // Disattiva il collider
             Collider2D collider = GetComponent<Collider2D>();

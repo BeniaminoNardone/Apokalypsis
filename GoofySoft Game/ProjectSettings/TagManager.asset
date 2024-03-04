@@ -6,6 +6,7 @@ TagManager:
   tags:
   - MusicIntroduction
   - Enemy
+  - Audio
   layers:
   - Default
   - TransparentFX

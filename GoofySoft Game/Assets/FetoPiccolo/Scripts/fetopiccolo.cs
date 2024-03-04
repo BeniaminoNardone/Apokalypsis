@@ -14,7 +14,8 @@ public class fetopiccolo : MonoBehaviour
     public ParticleSystem bloodParticles;
     public GameObject Coin;
     public float dropChance = 0.5f;
- 
+    AudioManager audioManager;
+    public string TipoNemico;
 
     // Start is called before the first frame update
     void Start()
@@ -68,6 +69,9 @@ public class fetopiccolo : MonoBehaviour
 
     IEnumerator DestroyAfterAnimation()
     {
+
+        gestoreSuoniMorte();
+
         // Attendi finché l'animazione di morte non è completata
         yield return new WaitForSeconds(_animator.GetCurrentAnimatorStateInfo(0).length);
 
@@ -76,9 +80,38 @@ public class fetopiccolo : MonoBehaviour
         Destroy(gameObject);
     }
 
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+
+    }
+
+
+
     // Update is called once per frame
     void Update()
     {
 
     }
+
+
+    void gestoreSuoniMorte()
+    {
+
+        if (TipoNemico == "fetoPiccolo")
+        {
+            audioManager.PlaySFX(audioManager.MorteBabyFeto);
+
+        }
+
+
+        if (TipoNemico == "fetone")
+        {
+            audioManager.PlaySFX(audioManager.MorteFetone);
+
+        }
+
+    }
+
 }
