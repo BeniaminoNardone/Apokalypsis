@@ -12126,6 +12126,7 @@ GameObject:
   - component: {fileID: 1047116971}
   - component: {fileID: 1047116970}
   - component: {fileID: 1047116973}
+  - component: {fileID: 1047116974}
   m_Layer: 5
   m_Name: Player
   m_TagString: Player
@@ -12381,6 +12382,25 @@ MonoBehaviour:
     type: 3}
   _animator: {fileID: 1047116968}
   offset: {x: 0, y: 0, z: 0}
+--- !u!114 &1047116974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047116962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f9830445821748819bc91452c3f81d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvents:
+    m_PersistentCalls:
+      m_Calls:
+      - {m_Target: {fileID: 1417954966}, m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine, m_MethodName: SetTrigger, m_Mode: 5, m_Arguments: {m_ObjectArgument: {fileID: 0},
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, m_IntArgument: 0,
+          m_FloatArgument: 0, m_StringArgument: isExploded, m_BoolArgument: 0}, m_CallState: 2}
+    m_CallsDirty: 1
 --- !u!1 &1076090057
 GameObject:
   m_ObjectHideFlags: 0
@@ -13292,14 +13312,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1417954968}
-  - component: {fileID: 1417954967}
-  - component: {fileID: 1417954969}
-  - component: {fileID: 1417954971}
-  - component: {fileID: 1417954966}
   - component: {fileID: 1417954970}
+  - component: {fileID: 1417954967}
+  - component: {fileID: 1417954966}
+  - component: {fileID: 1417954969}
   m_Layer: 3
   m_Name: Bobbio
-  m_TagString: bobbio
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13385,13 +13404,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1417954965}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.21647489, y: -0, z: -0, w: 0.97628826}
-  m_LocalPosition: {x: -34.34597, y: 0, z: -54.798195}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -34.34597, y: -0, z: -54.798195}
+  m_LocalScale: {x: 1, y: 1, z: 4.68}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 25.004, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1417954969
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13411,8 +13430,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 8.65, y: 7.4, z: 2.69}
-  m_Center: {x: 0, y: 2, z: 0}
+  m_Size: {x: 7.970494, y: 4.3600006, z: 0.19999999}
+  m_Center: {x: 0, y: 1.9187804, z: 0}
 --- !u!114 &1417954970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13422,37 +13441,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1417954965}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f9830445821748819bc91452c3f81d6, type: 3}
+  m_Script: {fileID: 11500000, guid: e798b29b233444da18fdcc3a730dc674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _animator: {fileID: 1417954966}
---- !u!54 &1417954971
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1417954965}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
+  minaAnimator: {fileID: 1417954966}
 --- !u!1 &1457603086
 GameObject:
   m_ObjectHideFlags: 0
