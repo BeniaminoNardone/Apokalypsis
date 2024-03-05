@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6428115637168764179}
   - component: {fileID: 1289955785589321561}
   - component: {fileID: 3119975214975296506}
+  - component: {fileID: 502405002066277740}
   m_Layer: 3
   m_Name: Bobbio
   m_TagString: Untagged
@@ -142,3 +143,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minaAnimator: {fileID: 6428115637168764179}
+--- !u!114 &502405002066277740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2366698265148991441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b687191788bc44231b738ef857397514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
