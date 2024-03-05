@@ -30,8 +30,8 @@ public class ScoreManager : MonoBehaviour
             PlayerPrefs.SetInt("HighScore", hiScoreCount);
         }
        
-         scoreText.text = "Score: " + scoreCount;
-         hiScoreText.text = "Hi-Score: " + hiScoreCount;
+         scoreText.text = "souls taken: " + scoreCount;
+         hiScoreText.text = "hi-score: " + hiScoreCount;
         
     }
 
