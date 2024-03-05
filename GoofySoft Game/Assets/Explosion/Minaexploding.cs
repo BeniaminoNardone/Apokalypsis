@@ -6,9 +6,9 @@ public class Minaexploding : MonoBehaviour
 {
     public Animator minaAnimator;
     // Start is called before the first frame update
-   private void OnTrigger(Collider other) {
+   private void OnCollisionEnter(Collision collision){
     
-    if (other.CompareTag("Player")) {
+    if (collision.gameObject.CompareTag("Player")) {
         
         minaAnimator.SetTrigger("isExploded");
 

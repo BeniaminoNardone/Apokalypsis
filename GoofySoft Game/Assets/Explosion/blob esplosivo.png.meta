@@ -193,6 +193,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: blob esplosivo_4
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 503
+        width: 708
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892cf034880804d09bb472db4ec03160
+      internalID: 501103441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -208,6 +229,7 @@ TextureImporter:
       blob esplosivo_1: -1928984962
       blob esplosivo_2: 1345811842
       blob esplosivo_3: -1038755660
+      blob esplosivo_4: 501103441
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

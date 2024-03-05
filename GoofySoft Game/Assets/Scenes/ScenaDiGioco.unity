@@ -12394,13 +12394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f9830445821748819bc91452c3f81d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvents:
-    m_PersistentCalls:
-      m_Calls:
-      - {m_Target: {fileID: 1417954966}, m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine, m_MethodName: SetTrigger, m_Mode: 5, m_Arguments: {m_ObjectArgument: {fileID: 0},
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, m_IntArgument: 0,
-          m_FloatArgument: 0, m_StringArgument: isExploded, m_BoolArgument: 0}, m_CallState: 2}
-    m_CallsDirty: 1
 --- !u!1 &1076090057
 GameObject:
   m_ObjectHideFlags: 0
@@ -13312,10 +13305,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1417954968}
-  - component: {fileID: 1417954970}
   - component: {fileID: 1417954967}
   - component: {fileID: 1417954966}
   - component: {fileID: 1417954969}
+  - component: {fileID: 1417954970}
   m_Layer: 3
   m_Name: Bobbio
   m_TagString: Untagged
@@ -13404,13 +13397,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1417954965}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.2840153, y: 0, z: 0, w: 0.95881975}
   m_LocalPosition: {x: -34.34597, y: -0, z: -54.798195}
   m_LocalScale: {x: 1, y: 1, z: 4.68}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 33, y: 0, z: 0}
 --- !u!65 &1417954969
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13909,6 +13902,7 @@ MonoBehaviour:
   - monsterSpawner:
     - {fileID: 1076090057}
     - {fileID: 1076090057}
+    - {fileID: 1417954965}
   - monsterSpawner:
     - {fileID: 1076090057}
     - {fileID: 1076090057}
