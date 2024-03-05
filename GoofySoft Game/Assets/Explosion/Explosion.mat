@@ -46,11 +46,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: be5c77d5f76b74fb28b0ed87ed70e56f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 525529397dd1b450aba4e0ad3c97c762, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: be5c77d5f76b74fb28b0ed87ed70e56f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 525529397dd1b450aba4e0ad3c97c762, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -101,8 +101,8 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 1, g: 0.5559415, b: 0.13679248, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 3.2111173, g: 1.1767713, b: 0.26899406, a: 1}
+    - _EmissionColor: {r: 4.2870936, g: 4.2870936, b: 4.2870936, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
