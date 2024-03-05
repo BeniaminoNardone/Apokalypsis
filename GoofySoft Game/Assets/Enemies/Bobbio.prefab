@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1289955785589321561}
   - component: {fileID: 3119975214975296506}
   - component: {fileID: 502405002066277740}
+  - component: {fileID: 1181026839282687964}
   m_Layer: 3
   m_Name: Bobbio
   m_TagString: Untagged
@@ -128,8 +129,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7.970494, y: 4.3600006, z: 0.19999999}
-  m_Center: {x: 0, y: 1.9187804, z: 0}
+  m_Size: {x: 7.970494, y: 10, z: 0.19999999}
+  m_Center: {x: 0, y: 4.48, z: 0}
 --- !u!114 &3119975214975296506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e798b29b233444da18fdcc3a730dc674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minaAnimator: {fileID: 6428115637168764179}
+  enemy: {fileID: 1181026839282687964}
 --- !u!114 &502405002066277740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,3 +157,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+--- !u!114 &1181026839282687964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2366698265148991441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b220c6ec243984745985d2dd54731d4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationLenghtInfo: 0.8
+  _animator: {fileID: 6428115637168764179}
+  movimento: {fileID: 0}
+  _collider: {fileID: 1289955785589321561}
+  maxHealth: 1
+  bloodParticles: {fileID: 0}
+  Coin: {fileID: 0}
+  dropChance: 0.5

@@ -4,18 +4,24 @@ using UnityEngine;
 
 public class Minaexploding : MonoBehaviour
 {
-    public Animator minaAnimator;
+ //    public Animator minaAnimator;
+    public fetopiccolo enemy;
     // Start is called before the first frame update
    private void OnCollisionEnter(Collision collision){
     
     if (collision.gameObject.CompareTag("Player")) {
         
-        minaAnimator.SetTrigger("isExploded");
+       // minaAnimator.SetTrigger("isExploded");
 
-        GetComponent<Collider>().enabled = false;
+     //   GetComponent<Collider>().enabled = false;
         
         Debug.Log("esplodo");
+         enemy.TakeDamage();
+          //Die();
     }
 
    }
+
+
+ 
 }

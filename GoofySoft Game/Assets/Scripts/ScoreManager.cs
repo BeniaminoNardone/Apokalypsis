@@ -31,7 +31,7 @@ public class ScoreManager : MonoBehaviour
         }
        
          scoreText.text = "souls taken: " + scoreCount;
-         hiScoreText.text = "hi-score: " + hiScoreCount;
+//S         hiScoreText.text = "hi-score: " + hiScoreCount;
         
     }
 

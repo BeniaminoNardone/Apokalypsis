@@ -4,6 +4,7 @@ using UnityEngine;
 public class fetopiccolo : MonoBehaviour
 {
     monsterSpawner Spawner;
+    public float animationLenghtInfo;
     public Animator _animator;
     public movementAI movimento;
     public BoxCollider _collider;
@@ -32,8 +33,7 @@ public class fetopiccolo : MonoBehaviour
     void Die()
     {
         _animator.SetTrigger("isDied");
-
-        movimento.enabled = false;
+        if(movimento!=null) movimento.enabled = false;
          Debug.Log("enemy died");
 
         ScoreManager.scoreCount += 10;
@@ -41,11 +41,13 @@ public class fetopiccolo : MonoBehaviour
         if (Spawner != null) Spawner.currentMonster.Remove(this.gameObject);
 
         StartCoroutine(DestroyAfterAnimation());
-
-        if (Random.value <= dropChance)
-        {
-            DropCollectible();
+        if (Coin != null) {
+            if (Random.value <= dropChance)
+            {
+                DropCollectible();
+            }
         }
+    
     }
 
     void DropCollectible()
@@ -57,18 +59,29 @@ public class fetopiccolo : MonoBehaviour
     {
         Spawner = _spawner;
     }
-
     IEnumerator DestroyAfterAnimation()
     {
+        // Ottieni la lunghezza dell'animazione corrente
+        float animationLength = _animator.GetCurrentAnimatorStateInfo(0).length;
+        if (animationLenghtInfo!= 0){
+            // Attendi finché l'animazione di morte non è completata
+            yield return new WaitForSeconds(animationLenghtInfo);
+        }
+        else
+        {
+            // Attendi finché l'animazione di morte non è completata
+            yield return new WaitForSeconds(animationLength);
+        }
+        Debug.Log("Animation length: " + animationLength);
+
         Debug.Log("Starting destruction coroutine...");
-        // Attendi finché l'animazione di morte non è completata
-        yield return new WaitForSeconds(_animator.GetCurrentAnimatorStateInfo(0).length);
+
+    
 
         Debug.Log("Animation completed, destroying GameObject...");
-        // Distruggi il GameObject
-    //    Instantiate(bloodParticles, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
+
 
     void Update()
     {

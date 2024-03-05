@@ -136,7 +136,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!95 &6111859921824282005
 Animator:
@@ -186,6 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b220c6ec243984745985d2dd54731d4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animationLenghtInfo: 0
   _animator: {fileID: 6111859921824282005}
   movimento: {fileID: 5161888714916659368}
   _collider: {fileID: 1036785448042055700}
@@ -206,5 +207,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b687191788bc44231b738ef857397514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 0}
   damage: 1

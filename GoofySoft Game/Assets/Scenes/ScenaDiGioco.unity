@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.17276788, g: 0.21589147, b: 0.29782534, a: 1}
+  m_IndirectSpecularColor: {r: 0.17267816, g: 0.21577376, b: 0.2976624, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6588,6 +6588,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlorasGarden
       objectReference: {fileID: 0}
+    - target: {fileID: 2583643603147499870, guid: 0f87c5f8d54264e869d0ed8f6a203cdd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583643603147499870, guid: 0f87c5f8d54264e869d0ed8f6a203cdd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 226.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2624414725494738797, guid: 0f87c5f8d54264e869d0ed8f6a203cdd,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 75.7
+      objectReference: {fileID: 0}
     - target: {fileID: 7226673754122492353, guid: 0f87c5f8d54264e869d0ed8f6a203cdd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6707,7 +6722,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 410, y: 300}
+  m_Size: {x: 450, y: 500}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -6747,7 +6762,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 410, y: 300, z: 0.20000005}
+  m_Size: {x: 450, y: 500, z: 0.20000005}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1472134002
 GameObject:
@@ -6783,8 +6798,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 166.3, y: 12}
-  m_SizeDelta: {x: 330, y: 74}
+  m_AnchoredPosition: {x: 251, y: -43}
+  m_SizeDelta: {x: 500, y: 74}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1472134004
 MonoBehaviour:
@@ -6957,11 +6972,12 @@ MonoBehaviour:
   countdownTime: 3
   waves:
   - monsterSpawner:
-    - {fileID: 2485893173970253054, guid: 9b2a59e2709644f69bf1a016194b3e07, type: 3}
-    - {fileID: 7705118848957622696, guid: cd45be58735984de4ac9e208000af0f4, type: 3}
     - {fileID: 2366698265148991441, guid: 60861b941229548a8889787dee840a4a, type: 3}
-  - monsterSpawner:
+    - {fileID: 7733781240550931078, guid: f8d73183fba66410ebd0bddc747a236d, type: 3}
     - {fileID: 7705118848957622696, guid: cd45be58735984de4ac9e208000af0f4, type: 3}
+    - {fileID: 5295384141362346787, guid: 7d87ceff3b4444f768e9e5943eb8ce70, type: 3}
+  - monsterSpawner:
+    - {fileID: 1410897021173606304, guid: beb94de93f1ed46fa889964bb44a2ded, type: 3}
   - monsterSpawner:
     - {fileID: 7705118848957622696, guid: cd45be58735984de4ac9e208000af0f4, type: 3}
     - {fileID: 7705118848957622696, guid: cd45be58735984de4ac9e208000af0f4, type: 3}
@@ -7253,7 +7269,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -689, y: 182}
+  m_AnchoredPosition: {x: -689, y: 176.6}
   m_SizeDelta: {x: 244.3, y: 160.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2019067667

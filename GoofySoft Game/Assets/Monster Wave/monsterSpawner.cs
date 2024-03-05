@@ -87,8 +87,9 @@ public class monsterSpawner : MonoBehaviour
         currentMonster.Add(newspawn);
 
         fetopiccolo monster = newspawn.GetComponent<fetopiccolo>();
+ 
         monster.SetSpawner(this);
-    }
+     }
 
 
 
