@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public int health;
     public int maxHealth = 3;
+    public Animator _animator;
 
    
     [SerializeField] private ParticleSystem particelleMortePlayer = default;
@@ -45,6 +46,8 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
+_animator.SetTrigger("damageTaken");
+
         health -= amount;
         if (health <= 0)
         {

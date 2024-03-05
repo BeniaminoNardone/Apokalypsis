@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 975fae04cd4d941ba99da458dd537424
+guid: cb2fae4167b074a6288f0c5ddae0e1f1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,33 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -136,34 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bjorn danno_0
+      name: bjorn danno copy 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 531
+        width: 690
         height: 1021
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7854f8346d5254c058b3c791093cb70f
-      internalID: -298235476
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bjorn danno_1
-      rect:
-        serializedVersion: 2
-        x: 604
-        y: 3
-        width: 691
-        height: 1018
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,19 +124,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca33a016e6db24a6897e09f52291e950
-      internalID: -266521944
+      spriteID: ee8051eda24cd4ebdb357e1e87a969ab
+      internalID: -1413920507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bjorn danno_2
+      name: bjorn danno copy 1_1
       rect:
         serializedVersion: 2
-        x: 1367
+        x: 755
         y: 0
-        width: 670
+        width: 704
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1a49ee837974a15b9336838af03a72
+      internalID: 693804596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bjorn danno copy 1_2
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 0
+        width: 545
         height: 1021
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -192,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f601c3b4458b4e178392ad3753c3d9e
-      internalID: 741592553
+      spriteID: d5fe3bf90c2594c07b0b7c106422fb9f
+      internalID: 1942361900
       vertices: []
       indices: 
       edges: []
@@ -201,7 +175,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8aaffd3b35985401ea6b45cb7027a751
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -209,9 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bjorn danno_0: -298235476
-      bjorn danno_1: -266521944
-      bjorn danno_2: 741592553
+      bjorn danno copy 1_0: -1413920507
+      bjorn danno copy 1_1: 693804596
+      bjorn danno copy 1_2: 1942361900
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

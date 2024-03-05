@@ -7356,6 +7356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 3
   maxHealth: 3
+  _animator: {fileID: 1047116968}
   particelleMortePlayer: {fileID: 704961108}
   playerController: {fileID: 1047116963}
   playerSr: {fileID: 1047116966}
