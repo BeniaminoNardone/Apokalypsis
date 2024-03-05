@@ -57,8 +57,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.06, y: 5.14, z: 2}
-  m_Center: {x: -0.24, y: 2.08, z: 0}
+  m_Size: {x: 5.93, y: 11.1, z: 4.83}
+  m_Center: {x: -0.24, y: 0.21, z: 0}
 --- !u!212 &3003068959145994438
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -186,6 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b220c6ec243984745985d2dd54731d4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animationLenghtInfo: 0
   _animator: {fileID: 3318322122705449340}
   movimento: {fileID: 6021827622755147015}
   _collider: {fileID: 2384319134678681904}

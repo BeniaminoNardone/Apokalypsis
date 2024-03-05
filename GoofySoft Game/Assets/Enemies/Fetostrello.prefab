@@ -109,7 +109,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7.900943, y: 3.85, z: 1.29}
+  m_Size: {x: 7.900943, y: 3.85, z: 3.87}
   m_Center: {x: 0.41857445, y: -0.70625657, z: 0}
 --- !u!54 &782861419774042506
 Rigidbody:
@@ -171,6 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b220c6ec243984745985d2dd54731d4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animationLenghtInfo: 0
   _animator: {fileID: 635057773947357857}
   movimento: {fileID: 66393207018806395}
   _collider: {fileID: 4765222626791673411}
@@ -206,5 +207,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b687191788bc44231b738ef857397514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: {fileID: 0}
   damage: 1
