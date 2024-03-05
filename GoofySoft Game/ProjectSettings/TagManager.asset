@@ -49,6 +49,9 @@ TagManager:
   - name: macchie2
     uniqueID: 1539508653
     locked: 0
+  - name: sfondolat
+    uniqueID: 4103511079
+    locked: 0
   - name: Player
     uniqueID: 1720180269
     locked: 0

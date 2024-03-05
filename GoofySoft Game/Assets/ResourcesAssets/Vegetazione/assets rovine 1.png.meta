@@ -1,0 +1,470 @@
+fileFormatVersion: 2
+guid: cba3cd753557641eea9d04ba17a4424a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: assets rovine 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4580
+        height: 3891
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.0064952592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b3f6623cda842ada9231730d392f5c
+      internalID: 2050267829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assets rovine 1_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5470
+        width: 939
+        height: 1302
+      alignment: 9
+      pivot: {x: 0.49999985, y: 0.008390787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71738954ebe614bf59c1743315a9fefe
+      internalID: -11302811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assets rovine 1_2
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 6124
+        width: 455
+        height: 484
+      alignment: 9
+      pivot: {x: 0.468739, y: 0.00040152052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06d32fe3a6244bd79794e95c9905de0
+      internalID: 1773123144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assets rovine 1_3
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 6110
+        width: 626
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.027723312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8785704cafffa432d9080949cafbf201
+      internalID: 2027470487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assets rovine 1_4
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 5427
+        width: 569
+        height: 470
+      alignment: 9
+      pivot: {x: 0.4999998, y: 0.015782911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95344ef7a34ab4fb98b8e703c5240dde
+      internalID: -543687506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assets rovine 1_5
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 5456
+        width: 498
+        height: 441
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04844835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc6dc5bacbfd467586c5edd54388dab
+      internalID: 213922571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assets rovine 1_6
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 5456
+        width: 967
+        height: 1316
+      alignment: 9
+      pivot: {x: 0.48529097, y: 0.0028124407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df306833710984e4e905cc510c1a5ae3
+      internalID: -656916088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assets rovine 1_7
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 5399
+        width: 981
+        height: 1337
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03189897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0771bf4d6b8b42868542ba2e730dfd3
+      internalID: -451921889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assets rovine 1_8
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 4830
+        width: 1024
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.19949555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae69d84769c084586be6318a177ebd51
+      internalID: -1312222373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assets rovine 1_9
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 4816
+        width: 1422
+        height: 483
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.02881567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a02fe567f5ad4b25b918584bec76b32
+      internalID: -1351281814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assets rovine 1_10
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 4901
+        width: 327
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69e12770ed004ee0b7a5831727083a0
+      internalID: 1899643909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assets rovine 1_11
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4887
+        width: 426
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a4ea53dd25e4f8ab51a5af12166e01
+      internalID: -295538606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assets rovine 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3919
+        width: 981
+        height: 1295
+      alignment: 9
+      pivot: {x: 0.48529044, y: 0.014388466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f765a4da9ed4f5493419dc699787e6
+      internalID: -1799948545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assets rovine 1_13
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 3934
+        width: 1423
+        height: 768
+      alignment: 9
+      pivot: {x: 0.4900042, y: 0.018462181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f681d8ba2ef2d4f69aaaceff797bf4b2
+      internalID: -1224948221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: assets rovine 1_14
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 3919
+        width: 1338
+        height: 797
+      alignment: 9
+      pivot: {x: 0.48936948, y: 0.00028978297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d3677284eb24a4db51074e1beea00f
+      internalID: -326581969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 07dcf98a43df3433d8ded6bec9fd6fe0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      assets rovine 1_0: 2050267829
+      assets rovine 1_1: -11302811
+      assets rovine 1_10: 1899643909
+      assets rovine 1_11: -295538606
+      assets rovine 1_12: -1799948545
+      assets rovine 1_13: -1224948221
+      assets rovine 1_14: -326581969
+      assets rovine 1_2: 1773123144
+      assets rovine 1_3: 2027470487
+      assets rovine 1_4: -543687506
+      assets rovine 1_5: 213922571
+      assets rovine 1_6: -656916088
+      assets rovine 1_7: -451921889
+      assets rovine 1_8: -1312222373
+      assets rovine 1_9: -1351281814
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
