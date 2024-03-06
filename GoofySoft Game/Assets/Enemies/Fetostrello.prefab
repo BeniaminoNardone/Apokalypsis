@@ -180,6 +180,7 @@ MonoBehaviour:
     type: 3}
   Coin: {fileID: 5444844468133441686, guid: c19caa5af8338461faa0e2c0f604bbc9, type: 3}
   dropChance: 0.5
+  TipoNemico: fetostrello
 --- !u!114 &66393207018806395
 MonoBehaviour:
   m_ObjectHideFlags: 0

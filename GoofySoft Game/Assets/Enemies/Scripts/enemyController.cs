@@ -107,6 +107,14 @@ public class fetopiccolo : MonoBehaviour
         {
             audioManager.PlaySFX(audioManager.MorteFetone);
         }
+        if (TipoNemico == "fetostrello")
+        {
+            audioManager.PlaySFX(audioManager.MorteFetostrello);
+        }
+        if (TipoNemico == "bobbio")
+        {
+            audioManager.PlaySFX(audioManager.EsplosioneBobbio);
+        }
     }
 
 

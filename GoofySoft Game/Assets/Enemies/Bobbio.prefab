@@ -177,3 +177,4 @@ MonoBehaviour:
   bloodParticles: {fileID: 0}
   Coin: {fileID: 0}
   dropChance: 0.5
+  TipoNemico: bobbio
