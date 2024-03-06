@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.17276788, g: 0.21589147, b: 0.29782534, a: 1}
+  m_IndirectSpecularColor: {r: 0.17267816, g: 0.21577376, b: 0.2976624, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7710,6 +7710,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7339340147687820605, guid: c00302ba604ae42f6958b1d5da91e280,
         type: 3}
+      propertyPath: MorteFetone
+      value: 
+      objectReference: {fileID: 8300000, guid: a6ed996ca97ec417ea7f547ec8446fdf, type: 3}
+    - target: {fileID: 7339340147687820605, guid: c00302ba604ae42f6958b1d5da91e280,
+        type: 3}
+      propertyPath: BoccettaPiena
+      value: 
+      objectReference: {fileID: 8300000, guid: c97b303b13b154721bed69d91f36bc84, type: 3}
+    - target: {fileID: 7339340147687820605, guid: c00302ba604ae42f6958b1d5da91e280,
+        type: 3}
       propertyPath: EsplosioneBobbio
       value: 
       objectReference: {fileID: 8300000, guid: 9424f03804dd14b73bc13dc67f7e04ab, type: 3}
@@ -7718,6 +7728,11 @@ PrefabInstance:
       propertyPath: MorteFetostrello
       value: 
       objectReference: {fileID: 8300000, guid: 65f17d491e1614766912f4e26f955c7b, type: 3}
+    - target: {fileID: 7339340147687820605, guid: c00302ba604ae42f6958b1d5da91e280,
+        type: 3}
+      propertyPath: GoldenFetoPiccolo
+      value: 
+      objectReference: {fileID: 8300000, guid: a719d4c32157c4b56bdef6d79c83cb44, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

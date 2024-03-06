@@ -115,6 +115,10 @@ public class fetopiccolo : MonoBehaviour
         {
             audioManager.PlaySFX(audioManager.EsplosioneBobbio);
         }
+        if (TipoNemico == "goldenFetoPiccolo")
+        {
+            audioManager.PlaySFX(audioManager.GoldenFetoPiccolo);
+        }
     }
 
 

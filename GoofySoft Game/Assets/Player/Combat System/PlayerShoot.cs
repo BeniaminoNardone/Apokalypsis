@@ -11,12 +11,19 @@ public class PlayerShoot : MonoBehaviour
     public GameObject bulletPrefab;
     public Animator _animator;
     public Vector3 offset;
- 
+    AudioManager audioManager;
+
     private void Start()
     {
 
 
     }
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -44,6 +51,7 @@ public class PlayerShoot : MonoBehaviour
     public void Shoot()
     {
         _animator.SetTrigger("IsDartAttack");
+        audioManager.PlaySFX(audioManager.LancioDelDardo);
 
         // Calcola l'angolo Z corretto per mantenere il proiettile parallelo al terreno
         float angle = Mathf.Atan2(firePoint.right.y, firePoint.right.x) * Mathf.Rad2Deg;

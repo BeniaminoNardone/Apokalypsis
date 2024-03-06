@@ -14,6 +14,11 @@ public class AudioManager : MonoBehaviour
     public AudioClip MorteFetone;
     public AudioClip MorteFetostrello;
     public AudioClip EsplosioneBobbio;
+    public AudioClip BoccettaPiena;
+    public AudioClip GoldenFetoPiccolo;
+    public AudioClip Beve;
+    public AudioClip LancioDelDardo;
+
 
     private void Start()
     {

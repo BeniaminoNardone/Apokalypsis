@@ -7,8 +7,9 @@ public class PlayerHealth : MonoBehaviour
     public int health;
     public int maxHealth = 3;
     public Animator _animator;
+    AudioManager audioManager;
 
-   
+
     [SerializeField] private ParticleSystem particelleMortePlayer = default;
     public PlayerController playerController;
     public SpriteRenderer playerSr;
@@ -26,6 +27,8 @@ public class PlayerHealth : MonoBehaviour
     {
         if (HealingPieces >= 3 && health!=maxHealth)//se ho una fiala completa
         {
+            audioManager.PlaySFX(audioManager.Beve);
+
             health++;
             HealingPieces = 0;
         }
@@ -35,6 +38,11 @@ public class PlayerHealth : MonoBehaviour
     public void IncrementHealtPiece()
     {
         HealingPieces++;
+        if (HealingPieces == 3)
+        {
+            audioManager.PlaySFX(audioManager.BoccettaPiena);
+
+        }
         Debug.Log(" HealingPieces++ ");
     }
 
@@ -43,8 +51,7 @@ public class PlayerHealth : MonoBehaviour
         return HealingPieces;
     }
 
-    AudioManager audioManager;
-    private void Awake()
+     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
 
@@ -52,7 +59,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
-_animator.SetTrigger("damageTaken");
+       _animator.SetTrigger("damageTaken");
 
         health -= amount;
         audioManager.PlaySFX(audioManager.DannoGesù);
