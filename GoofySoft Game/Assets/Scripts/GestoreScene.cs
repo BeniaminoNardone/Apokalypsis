@@ -41,4 +41,9 @@ public class GestoreScene : MonoBehaviour
     {
         SceneManager.LoadSceneAsync("Trofei");
     }
+
+    public void Istruzioni()
+    {
+        SceneManager.LoadSceneAsync("Istruzioni");
+    }
 }
