@@ -11,7 +11,7 @@ public class SceneLoader : MonoBehaviour
     {
 
         if (Input.GetMouseButtonDown(0))
-          LoadNextScene();
+            LoadNextScene();
 
     }
 

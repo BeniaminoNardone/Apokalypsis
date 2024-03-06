@@ -14,6 +14,8 @@ public class fetopiccolo : MonoBehaviour
     public ParticleSystem bloodParticles;
     public GameObject Coin;
     public float dropChance = 0.5f;
+    AudioManager audioManager;
+    public string TipoNemico;
 
     void Start()
     {
@@ -61,6 +63,8 @@ public class fetopiccolo : MonoBehaviour
     }
     IEnumerator DestroyAfterAnimation()
     {
+        gestoreSuoniMorte();
+
         // Ottieni la lunghezza dell'animazione corrente
         float animationLength = _animator.GetCurrentAnimatorStateInfo(0).length;
         if (animationLenghtInfo!= 0){
@@ -82,9 +86,28 @@ public class fetopiccolo : MonoBehaviour
         Destroy(gameObject);
     }
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+
+    }
+
 
     void Update()
     {
 
     }
+    void gestoreSuoniMorte()
+    {
+        if (TipoNemico == "fetoPiccolo")
+        {
+            audioManager.PlaySFX(audioManager.MorteBabyFeto);
+        }
+        if (TipoNemico == "fetone")
+        {
+            audioManager.PlaySFX(audioManager.MorteFetone);
+        }
+    }
+
+
 }

@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
 public class PlayerHealth : MonoBehaviour
 {
     public int health;
@@ -44,11 +43,19 @@ public class PlayerHealth : MonoBehaviour
         return HealingPieces;
     }
 
+    AudioManager audioManager;
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+
+    }
+
     public void TakeDamage(int amount)
     {
 _animator.SetTrigger("damageTaken");
 
         health -= amount;
+        audioManager.PlaySFX(audioManager.DannoGesù);
         if (health <= 0)
         {
             // Disattiva il collider
