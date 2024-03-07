@@ -88,8 +88,16 @@ public class PlayerHealth : MonoBehaviour
 
     }
 
- 
 
+    public void Update()
+    {
+        // Controlla se è stato premuto il pulsante X del DualSense 5
+        if (Input.GetButtonDown("cura"))
+        {
+            // Chiama la funzione del tuo personaggio
+            HealPlayer();
+        }
+    }
 
 
 }
