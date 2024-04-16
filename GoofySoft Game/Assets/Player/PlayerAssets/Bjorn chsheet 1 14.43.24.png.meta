@@ -261,6 +261,468 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2678
+        width: 718
+        height: 1203
+      alignment: 9
+      pivot: {x: 0.52169365, y: 0.44497237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727f9dcd9246a407c9b6f57d2423e0dd
+      internalID: -1771417220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_7
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 2662
+        width: 630
+        height: 1242
+      alignment: 9
+      pivot: {x: 0.5185429, y: 0.41221237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c375656969074ece8722744ff037fb7
+      internalID: -1237708850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_8
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2646
+        width: 592
+        height: 1188
+      alignment: 9
+      pivot: {x: 0.46053377, y: 0.41026154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e986a6d9143774627977f5da7890602f
+      internalID: 416766363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1389
+        width: 800
+        height: 1261
+      alignment: 9
+      pivot: {x: 0.52433753, y: 0.413535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0eb1d69a37eb406d86d8cf5c2f591e8
+      internalID: 1226923166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_10
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1396
+        width: 592
+        height: 1247
+      alignment: 9
+      pivot: {x: 0.48684445, y: 0.46565017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ab06ce10cf74cfb8260dfa3dbe523d
+      internalID: 1852626725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_11
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1431
+        width: 631
+        height: 1153
+      alignment: 9
+      pivot: {x: 0.49999982, y: 0.42569962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebfb6c2a4f604a11b76503a0038410a
+      internalID: -455121466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_12
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 2677
+        width: 749
+        height: 1194
+      alignment: 9
+      pivot: {x: 0.5870161, y: 0.45533863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbb397928b0d4951b9d2f9d1355cf1d
+      internalID: 15960378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_13
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 2668
+        width: 559
+        height: 1217
+      alignment: 9
+      pivot: {x: 0.5741947, y: 0.44157696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a882416488b4333ba6f940f6ac3b37
+      internalID: -931316768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_14
+      rect:
+        serializedVersion: 2
+        x: 3947
+        y: 2668
+        width: 604
+        height: 1176
+      alignment: 9
+      pivot: {x: 0.5343333, y: 0.42190614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a123e98306d74e8ba9212a1164c2c15
+      internalID: 1626156567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_15
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 1396
+        width: 831
+        height: 1235
+      alignment: 9
+      pivot: {x: 0.5765194, y: 0.4448341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfe3500dff5d4820b6ea90dd6162a78
+      internalID: 1564114236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_16
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 1435
+        width: 640
+        height: 1205
+      alignment: 9
+      pivot: {x: 0.5648041, y: 0.40903452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b465a1d597a15444895a50be7307c7c9
+      internalID: -129634087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_17
+      rect:
+        serializedVersion: 2
+        x: 4012
+        y: 1444
+        width: 619
+        height: 1173
+      alignment: 9
+      pivot: {x: 0.57441115, y: 0.4292832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3405c18285bc440c4b5d667d6ea7c9c7
+      internalID: 2113488061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_18
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 5469
+        width: 431
+        height: 1169
+      alignment: 9
+      pivot: {x: 0.5000006, y: 0.39226618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb409ac2d30934d4ca1557131390dad3
+      internalID: 206487907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_19
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 5429
+        width: 520
+        height: 1225
+      alignment: 9
+      pivot: {x: 0.5000005, y: 0.4053679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414277133139748b99f491935350210f
+      internalID: 1198206143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_20
+      rect:
+        serializedVersion: 2
+        x: 3961
+        y: 5389
+        width: 536
+        height: 1246
+      alignment: 9
+      pivot: {x: 0.49382177, y: 0.42228863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b0938b5e7e941c3837c3f3cc9b7a95
+      internalID: -1204345370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_21
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 4128
+        width: 437
+        height: 1170
+      alignment: 9
+      pivot: {x: 0.5066538, y: 0.38070372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5a9b737402f43eda489f2a393bc94a
+      internalID: 2103437095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_22
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 4082
+        width: 524
+        height: 1216
+      alignment: 9
+      pivot: {x: 0.5110986, y: 0.39956465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c3921dabd654fe3b3815bff5065c68
+      internalID: -1976410510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_23
+      rect:
+        serializedVersion: 2
+        x: 4102
+        y: 4062
+        width: 529
+        height: 1239
+      alignment: 9
+      pivot: {x: 0.5109942, y: 0.4342858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1002157782d46f7bb435d094f47230
+      internalID: -1883195482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_24
+      rect:
+        serializedVersion: 2
+        x: 2885
+        y: 0
+        width: 618
+        height: 1252
+      alignment: 9
+      pivot: {x: 0.49082813, y: 0.41398975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374684c8a6eac48efbd4ccde03f31ca5
+      internalID: 397776606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_25
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 589
+        height: 1262
+      alignment: 9
+      pivot: {x: 0.5131533, y: 0.401776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83db04d8c5e04449d814df325abf6dc0
+      internalID: 1959365568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_26
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 0
+        width: 581
+        height: 1254
+      alignment: 9
+      pivot: {x: 0.5133349, y: 0.43204018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39b0630d6ef2469e84fa099130d607f
+      internalID: 516511356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bjorn chsheet 1 14.43.24_27
+      rect:
+        serializedVersion: 2
+        x: 4053
+        y: 0
+        width: 558
+        height: 1254
+      alignment: 9
+      pivot: {x: 0.5134049, y: 0.42586204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d47901e00bdf4e1aac520af3674160d
+      internalID: 537196709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -274,10 +736,32 @@ TextureImporter:
     nameFileIdTable:
       Bjorn chsheet 1 14.43.24_0: -1305243120
       Bjorn chsheet 1 14.43.24_1: -684028407
+      Bjorn chsheet 1 14.43.24_10: 1852626725
+      Bjorn chsheet 1 14.43.24_11: -455121466
+      Bjorn chsheet 1 14.43.24_12: 15960378
+      Bjorn chsheet 1 14.43.24_13: -931316768
+      Bjorn chsheet 1 14.43.24_14: 1626156567
+      Bjorn chsheet 1 14.43.24_15: 1564114236
+      Bjorn chsheet 1 14.43.24_16: -129634087
+      Bjorn chsheet 1 14.43.24_17: 2113488061
+      Bjorn chsheet 1 14.43.24_18: 206487907
+      Bjorn chsheet 1 14.43.24_19: 1198206143
       Bjorn chsheet 1 14.43.24_2: 914591978
+      Bjorn chsheet 1 14.43.24_20: -1204345370
+      Bjorn chsheet 1 14.43.24_21: 2103437095
+      Bjorn chsheet 1 14.43.24_22: -1976410510
+      Bjorn chsheet 1 14.43.24_23: -1883195482
+      Bjorn chsheet 1 14.43.24_24: 397776606
+      Bjorn chsheet 1 14.43.24_25: 1959365568
+      Bjorn chsheet 1 14.43.24_26: 516511356
+      Bjorn chsheet 1 14.43.24_27: 537196709
       Bjorn chsheet 1 14.43.24_3: -386925397
       Bjorn chsheet 1 14.43.24_4: -40255683
       Bjorn chsheet 1 14.43.24_5: -2093544253
+      Bjorn chsheet 1 14.43.24_6: -1771417220
+      Bjorn chsheet 1 14.43.24_7: -1237708850
+      Bjorn chsheet 1 14.43.24_8: 416766363
+      Bjorn chsheet 1 14.43.24_9: 1226923166
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
