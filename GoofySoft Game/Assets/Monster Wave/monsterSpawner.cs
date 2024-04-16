@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class monsterSpawner : MonoBehaviour
 {
+    public Text waveNumberText;
     public float countdownTime = 2f;
     [System.Serializable]
 
@@ -26,6 +28,7 @@ public class monsterSpawner : MonoBehaviour
     void Start()
     {
         SpawnWave();
+        UpdateWaveNumberText();
         
     }
 
@@ -45,6 +48,7 @@ public class monsterSpawner : MonoBehaviour
         isCooldown = false;
         currentWave++;
         SpawnWave();
+        UpdateWaveNumberText();
     }
 
     /* void SpawnWave() {
@@ -64,6 +68,14 @@ public class monsterSpawner : MonoBehaviour
          }
      }*/
     //questo è piu bello da vedere ma istanzia 2 waves alla volta
+
+  void UpdateWaveNumberText()
+    {
+        if (waveNumberText != null) // Assicurati che il riferimento al UI Text sia valido
+        {
+            waveNumberText.text = "Wave: " + (currentWave); // Aggiorna il testo con il numero corrente della wave
+        }
+    }
 
     void SpawnWave()
     {
