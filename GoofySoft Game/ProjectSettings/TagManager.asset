@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Fialetta
   - DART
+  - Audio
   layers:
   - Default
   - TransparentFX
