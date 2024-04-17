@@ -104,8 +104,8 @@ public class PlayerHealth : MonoBehaviour
 
     public void Update()
     {
-        // Controlla se è stato premuto il pulsante X del DualSense 5
-        if (Input.GetButtonDown("cura"))
+    // Controlla se è stato premuto il pulsante X del DualSense 5 o la barra spaziatrice
+        if (Input.GetButtonDown("cura")||Input.GetButtonDown("Jump"))//! Jump è inteso come tasto della barra spaziatrice
         {
             // Chiama la funzione del tuo personaggio
             HealPlayer();

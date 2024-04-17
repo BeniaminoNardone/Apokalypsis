@@ -27,7 +27,7 @@ public class PlayerShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Controlla se è stato premuto il pulsante X del DualSense 5
+        // Controlla se è stato premuto il pulsante X del DualSense 5, o il tasto I della tastiera
         if (Input.GetButtonDown("AttaccoDart"))
         {
             // Chiama la funzione del tuo personaggio
