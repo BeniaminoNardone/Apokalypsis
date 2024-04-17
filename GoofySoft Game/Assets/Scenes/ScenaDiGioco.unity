@@ -6363,7 +6363,6 @@ GameObject:
   - component: {fileID: 1047116969}
   - component: {fileID: 1047116972}
   - component: {fileID: 1047116971}
-  - component: {fileID: 1047116970}
   - component: {fileID: 1047116973}
   m_Layer: 5
   m_Name: Player
@@ -6546,18 +6545,6 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 8
---- !u!114 &1047116970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1047116962}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe0577bff1dc647939e4195e3820ed89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1047116971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6616,6 +6603,7 @@ MonoBehaviour:
     type: 3}
   _animator: {fileID: 1047116968}
   offset: {x: 0, y: 0, z: 0}
+  dartCooldown: 2
 --- !u!1 &1131150651
 GameObject:
   m_ObjectHideFlags: 0
@@ -7656,7 +7644,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1694130187
 MonoBehaviour:
   m_ObjectHideFlags: 0
