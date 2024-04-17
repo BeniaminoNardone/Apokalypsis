@@ -2,26 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class PlayerHealth : MonoBehaviour
 {
     public int health;
     public int maxHealth = 3;
     public Animator _animator;
     AudioManager audioManager;
-
+    bool isInvincible = false;
 
     [SerializeField] private ParticleSystem particelleMortePlayer = default;
     public PlayerController playerController;
     public SpriteRenderer playerSr;
 
-
     public int HealingPieces = 0;//conta quanto è piena la fiala
-    // Start is called before the first frame update
+
     void Start()
     {
         health = maxHealth;
     }
-
 
     public void HealPlayer()
     {
@@ -32,7 +31,6 @@ public class PlayerHealth : MonoBehaviour
             health++;
             HealingPieces = 0;
         }
-
     }
 
     public void IncrementHealtPiece()
@@ -41,7 +39,6 @@ public class PlayerHealth : MonoBehaviour
         if (HealingPieces == 3)
         {
             audioManager.PlaySFX(audioManager.BoccettaPiena);
-
         }
         Debug.Log(" HealingPieces++ ");
     }
@@ -51,21 +48,41 @@ public class PlayerHealth : MonoBehaviour
         return HealingPieces;
     }
 
-     private void Awake()
+    private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
+    IEnumerator Invincibility()
+    {
+        isInvincible = true;
+        for (float i = 0; i < 1.7f; i += 0.1f)
+        {
+            playerSr.color = new Color(1f, 1f, 1f, Mathf.PingPong(i, 1f));
+            yield return new WaitForSeconds(0.1f);
+        }
+        playerSr.color = new Color(1f, 1f, 1f, 1f);
+        isInvincible = false;
+    }
+
+    IEnumerator GameOverDelay()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene("GameOver");
     }
 
     public void TakeDamage(int amount)
     {
-       _animator.SetTrigger("damageTaken");
+        if (isInvincible)
+            return;
+
+        _animator.SetTrigger("damageTaken");
 
         health -= amount;
         audioManager.PlaySFX(audioManager.DannoGesù);
+
         if (health <= 0)
         {
-            // Disattiva il collider
             Collider2D collider = GetComponent<Collider2D>();
             if (collider != null)
             {
@@ -74,20 +91,16 @@ public class PlayerHealth : MonoBehaviour
 
             playerSr.enabled = false;
             playerController.enabled = false;
-            particelleMortePlayer.transform.position = transform.position; // Imposta la posizione delle particelle sulla posizione del giocatore
+            particelleMortePlayer.transform.position = transform.position;
             particelleMortePlayer.Play();
 
-
-
-            SceneManager.LoadScene("GameOver");
-
-            //Destroy(gameObject); // Distrugge l'oggetto del giocatore solo se è ancora attivo
+            StartCoroutine(GameOverDelay());
         }
-
-
-
+        else
+        {
+            StartCoroutine(Invincibility());
+        }
     }
-
 
     public void Update()
     {
@@ -98,6 +111,4 @@ public class PlayerHealth : MonoBehaviour
             HealPlayer();
         }
     }
-
-
 }
