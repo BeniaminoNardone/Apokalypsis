@@ -28,8 +28,9 @@ public class movementAI : MonoBehaviour
 
         _animator.SetFloat("angle", angle);
 
-        transform.position = Vector3.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
-
+        Vector3 newPosition = Vector3.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+        newPosition.y = Mathf.Min(newPosition.y, this.transform.position.y); // Limita l'ascesa sull'asse y
+        transform.position = newPosition;
 
         // Calcola la distanza lungo l'asse Z tra le due entità
         float distanzaZ = transform.position.z - player.transform.position.z;
@@ -48,9 +49,5 @@ public class movementAI : MonoBehaviour
             risultato = 0; // Le entità sono alla stessa distanza
         }
         _animator.SetFloat("Blend", risultato);
-
-
     }
-
-
 }
