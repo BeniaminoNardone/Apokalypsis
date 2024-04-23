@@ -46,7 +46,7 @@ public class movementAI : MonoBehaviour
         }
         else
         {
-            risultato = 0; // Le entità sono alla stessa distanza
+            risultato = 0; // Le entità sono alla stessa distanzaa
         }
         _animator.SetFloat("Blend", risultato);
     }
