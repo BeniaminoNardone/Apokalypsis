@@ -80,6 +80,6 @@ public class PlayerShoot : MonoBehaviour
 
         // Disabilita il tasto di sparo per 3 secondi
         isShootingEnabled = false;
-        disableShootingTimer = 3f;
+        disableShootingTimer = 1f;
     }
 }
