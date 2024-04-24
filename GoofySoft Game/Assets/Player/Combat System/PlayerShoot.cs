@@ -1,3 +1,5 @@
+
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -5,7 +7,7 @@ using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
 {
-     [SerializeField] private FixedJoystick _joystick;
+    [SerializeField] private FixedJoystick _joystick;
 
     public Transform firePoint;
     public GameObject bulletPrefab;
@@ -17,7 +19,6 @@ public class PlayerShoot : MonoBehaviour
     private float lastDartTime; // Tempo dell'ultimo dardo sparato
 
     private bool isShootingEnabled = true; // Indica se il tasto di sparo è abilitato
-    private float disableShootingTimer; // Timer per disabilitare il tasto di sparo
 
     private void Awake()
     {
@@ -27,35 +28,11 @@ public class PlayerShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isShootingEnabled)
-        {
-            // Controlla se è stato premuto il pulsante X del DualSense 5, o il tasto I della tastiera e se il cooldown è passato
-                if ((Input.GetButtonDown("AttaccoDart") || Input.touchCount > 0) && Time.time - lastDartTime >= dartCooldown)
-            {
-                // Chiama la funzione del tuo personaggio
-                Shoot();
-                // Aggiorna il tempo dell'ultimo dardo sparato
-                lastDartTime = Time.time;
-            }
+        if(Input.GetButtonDown("AttaccoDart")){
+        Shoot();
         }
-
-        // Controlla se il tasto di sparo è stato disabilitato
-        if (!isShootingEnabled)
-        {
-            // Aggiorna il timer per disabilitare il tasto di sparo
-            disableShootingTimer -= Time.deltaTime;
-            // Se il timer è scaduto, riabilita il tasto di sparo
-            if (disableShootingTimer <= 0)
-            {
-                isShootingEnabled = true;
-            }
-        }
-
         float horizontalInput = (_joystick.Horizontal != 0) ? _joystick.Horizontal : Input.GetAxis("Horizontal");
         float verticalInput = (_joystick.Vertical != 0) ? _joystick.Vertical : Input.GetAxis("Vertical");
-
-        horizontalInput = Mathf.Clamp(horizontalInput, -1f, 1f);
-        verticalInput = Mathf.Clamp(verticalInput, -1f, 1f);
 
         if (horizontalInput != 0 || verticalInput != 0)
         {
@@ -66,20 +43,39 @@ public class PlayerShoot : MonoBehaviour
 
     public void Shoot()
     {
-        _animator.SetTrigger("IsDartAttack");
-        audioManager.PlaySFX(audioManager.LancioDelDardo);
+        // Verifica se il tasto di sparo è abilitato e se il cooldown è passato
+        if (isShootingEnabled && Time.time - lastDartTime >= dartCooldown)
+        {
+            // Chiama la funzione del tuo personaggio
+            _animator.SetTrigger("IsDartAttack");
+           // audioManager.PlaySFX(audioManager.LancioDelDardo);//TODO: cambiare suono
 
-        // Calcola l'angolo Z corretto per mantenere il proiettile parallelo al terreno
-        float angle = Mathf.Atan2(firePoint.right.y, firePoint.right.x) * Mathf.Rad2Deg;
-        float offsetx = 0;
-        offsetx = angle <= 90 ? 3.2f : -3.2f;
+            // Calcola l'angolo Z corretto per mantenere il proiettile parallelo al terreno
+            float angle = Mathf.Atan2(firePoint.right.y, firePoint.right.x) * Mathf.Rad2Deg;
+            float offsetx = 0;
+            offsetx = angle <= 90 ? 3.2f : -3.2f;
 
-        offset = new Vector3(offsetx, 3.2f, 0f);
-        // Istanzia il proiettile con l'offset
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position + offset, Quaternion.Euler(0, angle, 0));
+            offset = new Vector3(offsetx, 3.2f, 0f);
+            // Istanzia il proiettile con l'offset
+            GameObject bullet = Instantiate(bulletPrefab, firePoint.position + offset, Quaternion.Euler(0, angle, 0));
 
-        // Disabilita il tasto di sparo per 3 secondi
-        isShootingEnabled = false;
-        disableShootingTimer = 1f;
+            // Disabilita il tasto di sparo per il tempo di cooldown
+            isShootingEnabled = false;
+
+            // Aggiorna il tempo dell'ultimo dardo sparato
+            lastDartTime = Time.time;
+
+            // Avvia il coroutine per riabilitare il tasto di sparo dopo il cooldown
+            StartCoroutine(EnableShootingAfterCooldown());
+        }
+    }
+
+    IEnumerator EnableShootingAfterCooldown()
+    {
+        // Attendi il tempo di cooldown prima di riabilitare il tasto di sparo
+        yield return new WaitForSeconds(dartCooldown);
+
+        // Riabilita il tasto di sparo
+        isShootingEnabled = true;
     }
 }

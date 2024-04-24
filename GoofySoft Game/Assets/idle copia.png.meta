@@ -145,6 +145,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -157,7 +170,7 @@ TextureImporter:
         width: 560
         height: 1235
       alignment: 9
-      pivot: {x: 0.5032036, y: 0.4981323}
+      pivot: {x: 0.56256694, y: 0.41401425}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,7 +191,7 @@ TextureImporter:
         width: 560
         height: 1235
       alignment: 9
-      pivot: {x: 0.5013404, y: 0.5054699}
+      pivot: {x: 0.5755444, y: 0.41798714}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +207,12 @@ TextureImporter:
       name: idle copia_2
       rect:
         serializedVersion: 2
-        x: 273
+        x: 269
         y: 1666
         width: 560
         height: 1235
       alignment: 9
-      pivot: {x: 0.5018759, y: 0.5099894}
+      pivot: {x: 0.56123906, y: 0.4191418}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -220,7 +233,7 @@ TextureImporter:
         width: 560
         height: 1235
       alignment: 9
-      pivot: {x: 0.5033271, y: 0.49773675}
+      pivot: {x: 0.5626905, y: 0.41361883}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
