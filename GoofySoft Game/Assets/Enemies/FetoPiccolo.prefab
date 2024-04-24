@@ -186,6 +186,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b220c6ec243984745985d2dd54731d4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  punteggioNemico: 10
+  FloatingTextPrefab: {fileID: 6869629306877515868, guid: 423128b2674674136b91089ac2ebeaf2,
+    type: 3}
   animationLenghtInfo: 0
   _animator: {fileID: 5892134715779064834}
   movimento: {fileID: 3922695989859551905}

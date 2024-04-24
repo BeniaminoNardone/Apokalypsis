@@ -4,6 +4,8 @@ using UnityEngine;
 public class fetopiccolo : MonoBehaviour
 {
     monsterSpawner Spawner;
+    public int punteggioNemico;
+    public GameObject FloatingTextPrefab;
     public float animationLenghtInfo;
     public Animator _animator;
     public movementAI movimento;
@@ -38,7 +40,7 @@ public class fetopiccolo : MonoBehaviour
         if(movimento!=null) movimento.enabled = false;
          Debug.Log("enemy died");
 
-        ScoreManager.scoreCount += 10;
+        ScoreManager.scoreCount += punteggioNemico;
 
         if (Spawner != null) Spawner.currentMonster.Remove(this.gameObject);
 
@@ -49,7 +51,18 @@ public class fetopiccolo : MonoBehaviour
                 DropCollectible();
             }
         }
+
+        if (FloatingTextPrefab) {
+            ShowFloatingText();
+        }
     
+    }
+
+    void ShowFloatingText() {
+      var go =  Instantiate(FloatingTextPrefab, transform.position, Quaternion.identity, transform);
+      go.GetComponent<TextMesh>().text = punteggioNemico.ToString();
+
+
     }
 
     void DropCollectible()
