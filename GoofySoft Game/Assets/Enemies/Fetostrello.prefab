@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2523376190163456413}
   - component: {fileID: 66393207018806395}
   - component: {fileID: 1905466997208235273}
+  - component: {fileID: 5151283261991576045}
   m_Layer: 0
   m_Name: Fetostrello
   m_TagString: Untagged
@@ -191,7 +192,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5295384141362346787}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cea320c7fb37e4ec28369d6e0ddb029f, type: 3}
   m_Name: 
@@ -212,3 +213,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+--- !u!114 &5151283261991576045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5295384141362346787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72a31e46012744ad5a510e5cdc72f5a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  _animator: {fileID: 635057773947357857}
+  risultato: 0
