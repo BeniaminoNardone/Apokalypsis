@@ -18,7 +18,7 @@ public class monsterSpawner : MonoBehaviour
     }
 
     [SerializeField][NonReorderable] WaveContent[] waves;
-    int currentWave = 0;
+    int currentWave = 1;
     float spawnRange = 60;
     public List<GameObject> currentMonster;
     bool isCooldown = false;
@@ -33,23 +33,29 @@ public class monsterSpawner : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
-        if(currentMonster.Count == 0 && !isCooldown && currentWave<waves.Length) {//qui va messa come condizione anche il numero di currentwave < wave impostate-1  altrimenti va out of index
-            StartCoroutine(StartCooldown());
-        }
-        
+   void Update()
+{
+    // Controlla se tutti i mostri sono stati eliminati e se il cooldown è terminato
+    if(currentMonster.Count == 0 && !isCooldown && currentWave < waves.Length) {
+        StartCoroutine(StartCooldown());
     }
-    IEnumerator StartCooldown()
-    {
-        isCooldown = true;
-        yield return new WaitForSeconds(countdownTime);
-        isCooldown = false;
+}
+
+IEnumerator StartCooldown()
+{
+    isCooldown = true;
+    yield return new WaitForSeconds(2f); // Cooldown di 2 secondi
+    isCooldown = false;
+
+    // Controlla di nuovo se tutti i mostri sono stati eliminati prima di iniziare la prossima wave
+    if (currentMonster.Count == 0) {
         currentWave++;
         SpawnWave();
         UpdateWaveNumberText();
     }
+}
+
+
 
     /* void SpawnWave() {
          for(int i = 0; i < waves[currentWave].GetMonsterSpawnList().Length; i++) {
