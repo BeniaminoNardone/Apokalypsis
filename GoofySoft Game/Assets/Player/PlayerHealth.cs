@@ -67,8 +67,10 @@ public class PlayerHealth : MonoBehaviour
 
     IEnumerator GameOverDelay()
     {
-        yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene("GameOver");
+        yield return new WaitForSeconds(1.5f);
+        LevelManager.Instance.LoadScene("GameOver", "CrossFade");
+
+       // SceneManager.LoadScene("GameOver");
     }
 
     public void TakeDamage(int amount)
