@@ -18656,7 +18656,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1629657372
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21416,7 +21416,7 @@ PrefabInstance:
     - target: {fileID: 927430552578576099, guid: c00302ba604ae42f6958b1d5da91e280,
         type: 3}
       propertyPath: m_Volume
-      value: 0.335
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6413360227046378617, guid: c00302ba604ae42f6958b1d5da91e280,
         type: 3}
@@ -21480,6 +21480,11 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 9f09528eaaa4e48e59e43bac69a20704, type: 3}
     - target: {fileID: 7339340147687820605, guid: c00302ba604ae42f6958b1d5da91e280,
         type: 3}
+      propertyPath: background
+      value: 
+      objectReference: {fileID: 8300000, guid: 64816284efe3f4f99a33671d52fd2af4, type: 3}
+    - target: {fileID: 7339340147687820605, guid: c00302ba604ae42f6958b1d5da91e280,
+        type: 3}
       propertyPath: MorteFetone
       value: 
       objectReference: {fileID: 8300000, guid: a6ed996ca97ec417ea7f547ec8446fdf, type: 3}
@@ -21492,7 +21497,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LancioDelDardo
       value: 
-      objectReference: {fileID: 8300000, guid: 0d200c47bf7ee46a999d2c7d4527333b, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7339340147687820605, guid: c00302ba604ae42f6958b1d5da91e280,
         type: 3}
       propertyPath: EsplosioneBobbio
@@ -21508,6 +21513,11 @@ PrefabInstance:
       propertyPath: GoldenFetoPiccolo
       value: 
       objectReference: {fileID: 8300000, guid: a719d4c32157c4b56bdef6d79c83cb44, type: 3}
+    - target: {fileID: 9128412962077084014, guid: c00302ba604ae42f6958b1d5da91e280,
+        type: 3}
+      propertyPath: Priority
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
