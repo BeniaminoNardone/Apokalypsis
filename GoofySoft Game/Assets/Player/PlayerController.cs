@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
 
         if (horizontalInput != 0 || verticalInput != 0)
         {
-          
+        
 
             Vector3 moveDirection = new Vector3(horizontalInput, 0f, verticalInput);
             Vector3 attackPointLocalPosition = moveDirection.normalized * 5f;
