@@ -33,7 +33,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.2840153, y: 0, z: 0, w: 0.95881975}
   m_LocalPosition: {x: 104.1, y: 10.83, z: -20.3794}
-  m_LocalScale: {x: 1, y: 1.064419, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -57,7 +57,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5.93, y: 11.1, z: 4.83}
+  m_Size: {x: 5.93, y: 11.1, z: 6.15}
   m_Center: {x: -0.24, y: 0.21, z: 0}
 --- !u!212 &3003068959145994438
 SpriteRenderer:
@@ -193,11 +193,11 @@ MonoBehaviour:
   _animator: {fileID: 3318322122705449340}
   movimento: {fileID: 6021827622755147015}
   _collider: {fileID: 2384319134678681904}
-  maxHealth: 1
+  maxHealth: 3
   bloodParticles: {fileID: 8561470472884774896, guid: e09054d212bda4921acc7047808bc750,
     type: 3}
   Coin: {fileID: 5444844468133441686, guid: c19caa5af8338461faa0e2c0f604bbc9, type: 3}
-  dropChance: 0.5
+  dropChance: 0.8
   TipoNemico: fetone
 --- !u!114 &4095860181971223962
 MonoBehaviour:

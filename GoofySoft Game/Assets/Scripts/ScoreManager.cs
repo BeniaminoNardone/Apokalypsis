@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
+        public GameCenterManager gameCenterManager;
+
     public Text scoreText;
     public Text hiScoreText;
     public static int scoreCount;
@@ -13,9 +15,9 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (PlayerPrefs.HasKey("HighScore"))
-         {
-            hiScoreCount = PlayerPrefs.GetInt("HighScore");
+        if (PlayerPrefs.HasKey("HighScore1"))
+        {
+            hiScoreCount = PlayerPrefs.GetInt("HighScore1");
         }
         
     }
@@ -27,10 +29,13 @@ public class ScoreManager : MonoBehaviour
         {
 
             hiScoreCount = scoreCount;
-            PlayerPrefs.SetInt("HighScore", hiScoreCount);
+            PlayerPrefs.SetInt("HighScore1", hiScoreCount);
+
+            gameCenterManager.ReportScore(hiScoreCount, "Souls_Collected");
+
+
         }
-       
-         scoreText.text = "souls taken: " + scoreCount;
+        scoreText.text = "souls taken: " + scoreCount;
 //S         hiScoreText.text = "hi-score: " + hiScoreCount;
         
     }
